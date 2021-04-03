@@ -1,6 +1,6 @@
-#Project n°3 - OpenClassrooms courses
+# Project n°3 - OpenClassrooms courses
 
-##Project targets
+## Project targets
 
 Create a responsive website
 Use CSS animations
