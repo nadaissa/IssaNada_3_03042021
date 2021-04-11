@@ -1,0 +1,144 @@
+/*temporary borders*/
+/*common parts*/
+.main-wrapper {
+    border: solid blue;
+}
+
+.header {
+    border: solid brown;
+    &__logo {
+        border: solid black;
+    }
+    &__p {
+        border: solid blueviolet;
+    }
+    &__back {
+        border: solid chartreuse;
+    }
+}
+
+.footer {
+    border: solid greenyellow;
+    
+    &__h2 {
+        border: solid hotpink;
+    }
+    &__ul {
+        border: solid black;
+    }
+    &__li {
+        border: solid blue;
+    }
+}
+/*main parts*/
+.intro{
+    border: solid pink;
+}
+
+.description {
+    border: solid brown;
+    &__h1 {
+        border: solid black;
+    }
+    &__p {
+        border: solid magenta;
+    }
+}
+
+.nav {
+    border: solid lightseagreen;
+    &__h2 {
+        border: solid lightslategray;
+    }
+    &__list {
+        border: solid lime;
+    }
+}
+
+.food-section {
+    border: solid mediumvioletred;
+    &__h2 {
+        border: solid olive;
+    }
+}
+
+.cards-wrap {
+    border: solid orangered;
+}
+
+.card {
+    border: solid paleturquoise;
+    &__tag {
+        border: solid black;
+    }
+    &__text {
+        border: solid orangered;
+    }
+    &__name {
+        border: solid black;
+
+    }
+    &__location {
+        border: solid orangered;
+
+    }
+    &__i {
+        border: solid black;
+
+    }
+}
+
+/*menu page parts*/
+.image-section {
+    border: solid greenyellow;
+}
+
+.restaurant-wrapper {
+    border: solid hotpink;
+}
+
+.restaurant-title {
+    border: solid indigo;
+    &__h1 {
+        border: solid steelblue;
+    }
+    &__i {
+        border: solid steelblue;
+    }
+}
+
+.menu-wrapper {
+    border: solid tomato;
+}
+
+.menu-element {
+    border: solid black;
+    &__name {
+        border: solid chocolate;
+    }
+}
+
+.dishes-wrapper {
+    border: solid darkcyan;
+}
+
+.dish-card {
+    border: solid orangered;
+    &__name {
+        border: solid black;
+    }
+    &__details {
+        border: solid tomato;
+    }
+    &__price {
+        border: solid black;
+    }
+    &__check {
+        border: solid tomato;
+    }
+}
+
+
+
+
+

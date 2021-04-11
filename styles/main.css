@@ -3,4 +3,164 @@ img {
   width: 100px;
   height: 50px;
 }
+
+/*temporary borders*/
+/*common parts*/
+.main-wrapper {
+  border: solid blue;
+}
+
+.header {
+  border: solid brown;
+}
+
+.header__logo {
+  border: solid black;
+}
+
+.header__p {
+  border: solid blueviolet;
+}
+
+.header__back {
+  border: solid chartreuse;
+}
+
+.footer {
+  border: solid greenyellow;
+}
+
+.footer__h2 {
+  border: solid hotpink;
+}
+
+.footer__ul {
+  border: solid black;
+}
+
+.footer__li {
+  border: solid blue;
+}
+
+/*main parts*/
+.intro {
+  border: solid pink;
+}
+
+.description {
+  border: solid brown;
+}
+
+.description__h1 {
+  border: solid black;
+}
+
+.description__p {
+  border: solid magenta;
+}
+
+.nav {
+  border: solid lightseagreen;
+}
+
+.nav__h2 {
+  border: solid lightslategray;
+}
+
+.nav__list {
+  border: solid lime;
+}
+
+.food-section {
+  border: solid mediumvioletred;
+}
+
+.food-section__h2 {
+  border: solid olive;
+}
+
+.cards-wrap {
+  border: solid orangered;
+}
+
+.card {
+  border: solid paleturquoise;
+}
+
+.card__tag {
+  border: solid black;
+}
+
+.card__text {
+  border: solid orangered;
+}
+
+.card__name {
+  border: solid black;
+}
+
+.card__location {
+  border: solid orangered;
+}
+
+.card__i {
+  border: solid black;
+}
+
+/*menu page parts*/
+.image-section {
+  border: solid greenyellow;
+}
+
+.restaurant-wrapper {
+  border: solid hotpink;
+}
+
+.restaurant-title {
+  border: solid indigo;
+}
+
+.restaurant-title__h1 {
+  border: solid steelblue;
+}
+
+.restaurant-title__i {
+  border: solid steelblue;
+}
+
+.menu-wrapper {
+  border: solid tomato;
+}
+
+.menu-element {
+  border: solid black;
+}
+
+.menu-element__name {
+  border: solid chocolate;
+}
+
+.dishes-wrapper {
+  border: solid darkcyan;
+}
+
+.dish-card {
+  border: solid orangered;
+}
+
+.dish-card__name {
+  border: solid black;
+}
+
+.dish-card__details {
+  border: solid tomato;
+}
+
+.dish-card__price {
+  border: solid black;
+}
+
+.dish-card__check {
+  border: solid tomato;
+}
 /*# sourceMappingURL=main.css.map */
