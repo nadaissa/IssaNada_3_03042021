@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="/images/logo/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" href="/images/logo/favicon-32x32.png"/>
     <link rel="stylesheet" href="styles/main.css"/>
     <script src="https://kit.fontawesome.com/1e8b216979.js" crossorigin="anonymous"></script>
     <title>Oh my food!</title>
@@ -13,35 +13,41 @@
 
 <body>
     <div class="main-wrapper">
-        <!--header with logo only-->
-        <header>
+        <!--header with logo and location-->
+        <header class="header">
             <!--see if you keep the link to index or if you just link to an id-->
-            <a href="/index.html"><img src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/></a>
+            <a href="/index.html"><img class="header__logo" src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/></a>
+            <p class="header__p"><span class="fas fa-map-marker-alt header__i"></span>Paris, Belleville</p>
         </header>
-        <!--location div geo icon and city zone paragraph-->
-        <div>
-            <p><span class="fas fa-map-marker-alt"></span>Paris, Belleville</p>
-        </div>
         <!--presentation section. 1st div = heading, a paragraph and a button. 2nd div = heading + div with 3 buttons-->
-        <section>
-            <div>
-                <h1>Réservez le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
-                <button>Explorer nos restaurants</button>
+        <section id="intro">
+            <div class="description">
+                <h1 class="description__h1">Réservez le menu qui vous convient</h1>
+                <p class="description__p">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
+                <button class="description__btn">Explorer nos restaurants</button>
             </div>
-            <div>
-                <h2>Fonctionnement</h2>
-                <!--see if you can change the list logic into a non-list logic with a span before the icon including the numbers-->
-                <ol>
-                    <li><button><span class="fas fa-mobile-alt"></span>Choisissez un restaurant</button></li>
-                    <li><button><span class="fas fa-list-ul"></span>Composez votre menu</button></li>
-                    <li><button><span class="fas fa-store"></span>Dégustez au restaurant</button></li>
-                </ol>
-            </div>
+            <nav class="nav">
+                <h2 class="nav__h2">Fonctionnement</h2>
+                <ul class="nav__ul">
+                    <li class="nav__li">
+                        <span class="nav__li__nmb">1</span>
+                        <button class="nav__li__btn"><span class="fas fa-mobile-alt nav__li__i"></span>Choisissez un restaurant</button>
+                    </li>
+                    <li class="nav__li">
+                        <span class="nav__li__nmb">2</span>
+                        <button class="nav__li__btn"><span class="fas fa-list-ul nav__li__i"></span>Composez votre menu</button>
+                    </li>
+                    <li class="nav__li">
+                        <span class="nav__li__nmb">3</span>
+                        <button class="nav__li__btn"><span class="fas fa-store nav__li__i"></span>Dégustez au restaurant</button>
+                    </li>
+                </ul>
+            </nav>
         </section>
         <!--restaurants section three cards links = image (with span for 2) + h3 + p + icon-->
-        <section>
+        <section class="food-section">
             <h2>Restaurants</h2>
+            <div class="cards-wrapper"></div>
             <div>
                 <a href="pages/palette_du_gout.html">
                     <div>
