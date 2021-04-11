@@ -13,52 +13,51 @@
 
 <body>
     <div class="main-wrapper">
-        <!--header with logo only-->
-        <header class="page-header">
+        <!--header with back link + logo-->
+        <header class="header">
             <!--you made another link here because they needed to consider the arrow as a return button-->
-            <a href="../index.html"><span class="fas fa-arrow-left"></span></a>
-            <a href="../index.html"><img src="../images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/></a>
+            <a href="../index.html"><span class="fas fa-arrow-left header__i"></span></a>
+            <a href="../index.html"><img class="header__logo" src="../images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/></a>
         </header>
 
         <!--main image section-->
-        <div>
-            <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française"/>
+        <div class="image-section">
+            <img class="image-section__img" src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française"/>
         </div>
 
         <!--Menu section: 5 divs: h1+icon, 3x[h2+ 3cards(h3+2p+hidden icon)], button-->
-        <section>
+        <section class="restaurant-wrapper">
             <!--restaurant title-->
-            <div>
-                <h1>A la française</h1>
-                <span class="far fa-heart"></span>
+            <div class="restaurant-title">
+                <h1 class="restaurant-title__h1">A la française</h1>
+                <span class="far fa-heart restaurant-title__i"></span>
             </div>
             <!--main menus wrapper-->
-            <div>
-                <!--entree section-->
-                <div>
-                    <h2>Entrées</h2>
+            <div class="menu-wrapper">
+                <!--appetizers section-->
+                <div class="menu-element">
+                    <h2 class="menu-element__name">Entrées</h2>
                     <!--entrees cards wrapper-->
-                    <div>
-                        <div>
-                            <h3>Fricassée d'escargot</h3>
-                            <p>Au piment d'Espelette</p>
-                            <p>25€</p>
-                            <span class="fas fa-check-circle"></span>
+                    <div class="dish-wrapper">
+                        <div class="dish-card">
+                            <h3 class="dish-card__name">Fricassée d'escargot</h3>
+                            <p class="dish-card__details">Au piment d'Espelette</p>
+                            <p class="dish-card__price">25€</p>
+                            <span class="fas fa-check-circle dish-card__check"></span>
                         </div>
-                        <div>
-                            <h3>Foie gras de canard mi-cuit</h3>
-                            <p>Et ses copeaux de truffe noire</p>
-                            <p>35€</p>
-                            <span class="fas fa-check-circle"></span>
+                        <div class="dish-card">
+                            <h3 class="dish-card__name">Foie gras de canard mi-cuit</h3>
+                            <p class="dish-card__details">Et ses copeaux de truffe noire</p>
+                            <p class="dish-card__price">35€</p>
+                            <span class="fas fa-check-circle dish-card__check"></span>
                         </div>
                     </div>
                 </div>
-                <!--plats section-->
+                <!--maincourses section-->
 
                 <!--dessert section-->
             </div> 
-            <button>Commander</button>   
-               
+            <button class="restaurant-btn">Commander</button>   
         </section>
         <!--footer section with h2 and site map list (contact link to email address)-->
         <footer>
