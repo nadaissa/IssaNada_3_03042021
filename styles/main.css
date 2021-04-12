@@ -1,17 +1,23 @@
 /*Utils import*/
 /*Font variables*/
 /*Base import*/
+/*navigator (chorme etc) rules*/
+/*general basic behavior - general common styles*/
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
 /*colors fonts and cie*/
 /*fonts links*/
 @font-face {
-  font-family: "Shrikhand";
-  src: url("/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+  font-family: 'Shrikhand';
+  src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
 }
 

@@ -4,9 +4,12 @@
 @import './utils/functions';
 
 /*Base import*/
+@import './base/reset';
+@import './base/base';
 @import './base/typography';
 
 /*Layout import*/
+@import './layout/primary_content';
 @import './layout/flex';
 @import './layout/header';
 @import './layout/footer';
