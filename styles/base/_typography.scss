@@ -19,7 +19,14 @@
     border: solid blue;
 }
 
-.header {
+.main-header {
+    border: solid brown;
+    &__logo {
+        border: solid black;
+    }
+}
+
+.menu-header {
     border: solid brown;
     &__logo {
         border: solid black;

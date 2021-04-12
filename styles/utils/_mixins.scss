@@ -1,0 +1,7 @@
+@mixin common-header {
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;    
+}
