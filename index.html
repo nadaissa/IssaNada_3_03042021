@@ -13,14 +13,14 @@
 
 <body>
     <div class="main-wrapper">
-        <!--header with logo and location-->
+        <!--header with logo only-->
         <header class="header">
-            <!--see if you keep the link to index or if you just link to an id-->
-            <a href="/index.html"><img class="header__logo" src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/></a>
-            <p class="header__p"><span class="fas fa-map-marker-alt header__loc"></span>Paris, Belleville</p>
+            <!--no need to put a link on image because there will be a return link on secondary pages-->
+            <img class="header__logo" src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/>
         </header>
         <!--presentation section. 1st div = heading, a paragraph and a button. 2nd div = heading + div with 3 buttons-->
         <section class="intro">
+            <button class="intro__btn"><span class="fas fa-map-marker-alt intro__loc"></span>Paris, Belleville</button>
             <div class="description">
                 <h1 class="description__h1">Réservez le menu qui vous convient</h1>
                 <p class="description__p">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
@@ -46,7 +46,7 @@
                         <div class="card__text">
                             <h3 class="card__name">La palette du goût</h3>
                             <p class="card__location">Ménilmontant</p>
-                            <span class="far fa-heart card__i"></span>
+                            <button class="card__btn"><span class="far fa-heart card__i"></span></button>
                         </div>
                     </a>
                 </div>
@@ -57,7 +57,7 @@
                         <div class="card__text">
                             <h3 class="card__name">La note enchantée</h3>
                             <p class="card__location">Charonne</p>
-                            <span class="far fa-heart card__i"></span>
+                            <button class="card__btn"><span class="far fa-heart card__i"></span></button>
                         </div>
                     </a>
                 </div>
@@ -67,7 +67,7 @@
                         <div class="card__text">
                             <h3 class="card__name">A la française</h3>
                             <p class="card__location">Cité Rouge</p>
-                            <span class="far fa-heart card__i"></span>
+                            <button class="card__btn"><span class="far fa-heart card__i"></span></button>
                         </div>
                     </a>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="card__text">
                             <h3 class="card__name">Le délice des sens</h3>
                             <p class="card__location">Folie-Méricourt</p>
-                            <span class="far fa-heart card__i"></span>
+                            <button class="card__btn"><span class="far fa-heart card__i"></span></button>
                         </div>
                     </a>
                 </div>

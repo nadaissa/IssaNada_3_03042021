@@ -18,10 +18,6 @@ img {
   border: solid black;
 }
 
-.header__p {
-  border: solid blueviolet;
-}
-
 .header__back {
   border: solid chartreuse;
 }
@@ -45,6 +41,10 @@ img {
 /*main parts*/
 .intro {
   border: solid pink;
+}
+
+.intro__loc {
+  border: solid chartreuse;
 }
 
 .description {

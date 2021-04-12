@@ -9,9 +9,6 @@
     &__logo {
         border: solid black;
     }
-    &__p {
-        border: solid blueviolet;
-    }
     &__back {
         border: solid chartreuse;
     }
@@ -33,6 +30,10 @@
 /*main parts*/
 .intro{
     border: solid pink;
+    &__loc {
+        border: solid chartreuse;
+    }
+
 }
 
 .description {
