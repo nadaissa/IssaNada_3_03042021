@@ -1,2 +1,14 @@
-@import './components/images';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/functions';
+
 @import './base/typography';
+
+@import './layout/flex';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navigation';
+
+@import './components/images';
+@import './components/buttons';
+@import './components/icones';

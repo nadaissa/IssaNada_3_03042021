@@ -1,9 +1,4 @@
-/*temporary images size*/
-img {
-  width: 100px;
-  height: 50px;
-}
-
+/*font*/
 /*temporary borders*/
 /*common parts*/
 .main-wrapper {
@@ -162,5 +157,11 @@ img {
 
 .dish-card__check {
   border: solid tomato;
+}
+
+/*temporary images size*/
+img {
+  width: 100px;
+  height: 50px;
 }
 /*# sourceMappingURL=main.css.map */
