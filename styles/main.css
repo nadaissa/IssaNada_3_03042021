@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
 }
 
+.main-wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
 /*colors fonts and cie*/
 /*fonts links*/
 @font-face {
