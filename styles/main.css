@@ -1,4 +1,18 @@
-/*font*/
+/*Utils import*/
+/*Base import*/
+/*fonts links*/
+@font-face {
+  font-family: "Shrikhand";
+  src: url("/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
 /*temporary borders*/
 /*common parts*/
 .main-wrapper {
@@ -159,6 +173,8 @@
   border: solid tomato;
 }
 
+/*Layout import*/
+/*Components import*/
 /*temporary images size*/
 img {
   width: 100px;

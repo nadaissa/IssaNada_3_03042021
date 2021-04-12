@@ -1,14 +1,18 @@
+/*Utils import*/
 @import './utils/variables';
 @import './utils/mixins';
 @import './utils/functions';
 
+/*Base import*/
 @import './base/typography';
 
+/*Layout import*/
 @import './layout/flex';
 @import './layout/header';
 @import './layout/footer';
 @import './layout/navigation';
 
+/*Components import*/
 @import './components/images';
 @import './components/buttons';
 @import './components/icones';
