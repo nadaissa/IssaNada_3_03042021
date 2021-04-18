@@ -13,6 +13,23 @@
     font-style: normal;
    }
 
+/*general font properties*/
+body{
+    font-family: $general-font, Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    @include big-bold;
+}
+
+h3 {
+    @include medium-bold;
+}
+
+p, span, li, button {
+    @include small-no-bold;
+}
+
 /*temporary borders*/
 /*common parts*/
 .main-wrapper {
