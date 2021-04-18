@@ -8,16 +8,50 @@
 }
 
 .cards-wrap {
-    width: 100%;
+    width: auto;
     @include flex-column-center;
 }
 
 .card {
     @include border-radius-shadow;
-    width: 90%;
+    width: 95%;
     margin-bottom: 10px;
+    height: 210px;
+    margin-bottom: 20px;
+
+    &__tag{
+        position: absolute;
+    }
     &__img {
-        
+       border-radius: 10px 10px 0px 0px;
+       width: 100%;
+       max-height: 145px; 
+       object-fit: cover;
+    }
+    &__text{
+        width: 95%;
+        max-height: 70px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__name{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-right: 40px;
+    }
+    &__location{
+        margin-top: 0px;
+        margin-right: 40px;
+    }
+    &__i {
+        align-self: flex-end;
+        margin-top: -50px;
+        margin-right: 10px;
+        font-size: x-large;
     }
 }
 
