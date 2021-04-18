@@ -237,10 +237,6 @@ body {
   width: 150px;
 }
 
-.menu-header__back {
-  margin-right: 10px;
-}
-
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
