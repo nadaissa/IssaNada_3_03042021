@@ -21,6 +21,9 @@
 
     &__tag{
         position: absolute;
+        background-color: $tertiary-color;
+        color: scale-color($tertiary-color, $lightness: -50%);
+        font-weight: bold;
     }
     &__img {
        border-radius: 10px 10px 0px 0px;

@@ -420,6 +420,9 @@ ul {
 
 .card__tag {
   position: absolute;
+  background-color: #99E2D0;
+  color: #2a947a;
+  font-weight: bold;
 }
 
 .card__img {
