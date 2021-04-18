@@ -1,0 +1,24 @@
+/*main page*/
+.food-section {
+    @include flex-column-center;
+    background-color: $lighter-layout;
+    &__h2{
+        align-self: flex-start;
+    }
+}
+
+.cards-wrap {
+    width: 100%;
+    @include flex-column-center;
+}
+
+.card {
+    @include border-radius-shadow;
+    width: 90%;
+    margin-bottom: 10px;
+    &__img {
+        
+    }
+}
+
+/*menu page*/

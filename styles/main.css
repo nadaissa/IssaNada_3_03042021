@@ -365,6 +365,7 @@ button {
   font-size: medium;
 }
 
+/*main page*/
 .food-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,9 +404,11 @@ button {
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
-  width: 95%;
+  width: 90%;
+  margin-bottom: 10px;
 }
 
+/*menu page*/
 /*Components import*/
 /*temporary images size*/
 img {
