@@ -17,3 +17,12 @@
 @mixin small-no-bold {
     font-size: 0.9rem;
 }
+
+@mixin common-button {
+    background-color: $secondary-color;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}

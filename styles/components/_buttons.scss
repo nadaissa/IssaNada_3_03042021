@@ -1,0 +1,9 @@
+/*common buttons*/
+.description__btn {
+    @include common-button;
+}
+
+.restaurant-btn {
+    @include common-button;
+
+}
