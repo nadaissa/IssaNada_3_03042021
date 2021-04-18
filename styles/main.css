@@ -325,12 +325,25 @@ button {
 }
 
 .nav__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #F8F8F8;
   border-radius: 20px;
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
-  padding: 22.5px;
+  padding: 22px;
   width: 98%;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -338,8 +351,17 @@ button {
 
 .nav__nmb {
   background-color: #9356DC;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 2px 6px 2px 6px;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: white;
+  margin-left: -50px;
+}
+
+.nav__i {
+  color: grey;
+  font-size: medium;
 }
 
 /*Components import*/
