@@ -1,19 +1,14 @@
-.main-header {
-    @include common-header;
-    &__logo {
-        flex: 0 0 50%;
-    }
-}
-
-.menu-header {
-    @include common-header;
+.header {
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     &__logo {
         flex: 0 0 50%;
     }
     &__back {
         position: absolute;
         width: 90%;
-
     }
-
 }

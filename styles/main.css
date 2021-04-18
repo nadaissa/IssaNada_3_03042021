@@ -32,23 +32,15 @@ body {
   border: solid blue;
 }
 
-.main-header {
+.header {
   border: solid brown;
 }
 
-.main-header__logo {
+.header__logo {
   border: solid black;
 }
 
-.menu-header {
-  border: solid brown;
-}
-
-.menu-header__logo {
-  border: solid black;
-}
-
-.menu-header__back {
+.header__back {
   border: solid chartreuse;
 }
 
@@ -195,7 +187,7 @@ body {
 }
 
 /*Layout import*/
-.main-header {
+.header {
   padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,36 +204,13 @@ body {
           align-items: center;
 }
 
-.main-header__logo {
+.header__logo {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
 }
 
-.menu-header {
-  padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu-header__logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-}
-
-.menu-header__back {
+.header__back {
   position: absolute;
   width: 90%;
 }
