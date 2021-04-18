@@ -1,0 +1,23 @@
+{
+  "name": "issanada_3_03042021",
+  "version": "1.0.0",
+  "description": "project for openclassroom course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/main.scss: main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadaissa/IssaNada_3_03042021.git"
+  },
+  "keywords": [
+    "ohmyfood",
+    "openclassroom"
+  ],
+  "author": "Nada Issa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadaissa/IssaNada_3_03042021/issues"
+  },
+  "homepage": "https://github.com/nadaissa/IssaNada_3_03042021#readme"
+}
