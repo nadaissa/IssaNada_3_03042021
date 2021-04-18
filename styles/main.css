@@ -476,6 +476,31 @@ ul {
   width: 100%;
 }
 
+.footer {
+  background-color: #2e2e2e;
+  padding: 10px;
+}
+
+.footer__h2 {
+  margin-top: 0px;
+  color: white;
+  font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.footer__ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer__li {
+  margin-top: 5px;
+}
+
+.footer__lk {
+  color: white;
+}
+
 /*Components import*/
 /*common buttons*/
 .description__btn {
