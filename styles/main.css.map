@@ -7,7 +7,7 @@
         "utils/_mixins.scss",
         "utils/_functions.scss",
         "base/_reset.scss",
-        "base/_base.scss",
+        "base/_general.scss",
         "base/_typography.scss",
         "layout/_primary_content.scss",
         "layout/_flex.scss",
