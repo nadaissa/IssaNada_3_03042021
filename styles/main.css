@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -249,7 +249,7 @@ button {
 .intro__btn {
   padding-bottom: 10px;
   padding-top: 10px;
-  background-color: #e8e8e8;
+  background-color: #F0F0F0;
 }
 
 .intro__loc {
@@ -270,8 +270,26 @@ button {
           flex-flow: column nowrap;
   -ms-flex-line-pack: center;
       align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  padding: 10px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  background-color: #F8F8F8;
+}
+
+.description__h1 {
+  width: 75%;
+  padding: 0px;
+  margin-bottom: 1px;
+}
+
+.description__p {
+  width: 90%;
+  padding: 0px;
+  margin-top: 1px;
+  margin-bottom: 30px;
 }
 
 /*Components import*/

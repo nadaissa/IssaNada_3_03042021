@@ -18,7 +18,23 @@
     display: flex;
     flex-flow: column nowrap;
     align-content: center;
+    align-items: center;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    background-color: $lighter-layout;
+    &__h1 {
+        width: 75%;
+        padding: 0px;
+        margin-bottom: 1px;
+    }
+    &__p {
+        width: 90%;
+        padding: 0px;
+        margin-top:1px;
+        margin-bottom: 30px;
+
+    }
+
 }
 
