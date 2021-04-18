@@ -3,8 +3,8 @@
     display: flex;
     flex-flow: column nowrap;
     &__btn {
-        height: 40px;
-        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 10px;
         background-color: $light-layout;
     }
     &__loc {
@@ -21,3 +21,4 @@
     text-align: center;
     padding: 10px;
 }
+

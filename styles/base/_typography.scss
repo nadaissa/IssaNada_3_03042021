@@ -26,8 +26,12 @@ h3 {
     @include medium-bold;
 }
 
-p, span, li, button {
+p, span, li {
     @include small-no-bold;
+}
+
+button {
+    @include small-bold;
 }
 
 /*temporary borders*/
