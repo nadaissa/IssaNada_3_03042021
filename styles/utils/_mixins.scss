@@ -20,8 +20,14 @@
 
 @mixin common-button {
     background-color: $secondary-color;
+    border: none;
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
+@mixin flex-column-center{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
