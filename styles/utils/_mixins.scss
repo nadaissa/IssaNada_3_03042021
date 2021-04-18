@@ -31,3 +31,9 @@
     flex-flow: column nowrap;
     align-items: center;
 }
+
+@mixin border-radius-shadow{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(212, 206, 206);
+    border: none;
+}

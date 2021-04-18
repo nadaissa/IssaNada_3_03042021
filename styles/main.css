@@ -302,6 +302,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  vertical-align: middle;
 }
 
 .nav__h2 {
@@ -320,6 +321,21 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 95%;
+}
+
+.nav__btn {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 5px #d4cece;
+          box-shadow: 5px 5px 5px #d4cece;
+  border: none;
+  padding: 20px;
+  width: 95%;
+}
+
+.nav__nmb {
+  background-color: #9356DC;
 }
 
 /*Components import*/
