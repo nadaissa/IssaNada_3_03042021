@@ -47,6 +47,14 @@ button {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 /*temporary borders*/
 /*common parts*/
 .main-wrapper {
