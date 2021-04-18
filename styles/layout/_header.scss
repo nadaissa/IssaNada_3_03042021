@@ -6,8 +6,13 @@
 }
 
 .menu-header {
-    @include common-header; justify-content: space-between;
+    @include common-header;
     &__logo {
         flex: 0 0 50%;
     }
+
+    &__back {
+        flex: 0 0 50%;
+    }
+
 }

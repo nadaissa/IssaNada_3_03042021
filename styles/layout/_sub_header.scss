@@ -1,0 +1,23 @@
+
+.intro {
+    display: flex;
+    flex-flow: column nowrap;
+    &__btn {
+        height: 40px;
+        font-weight: bold;
+        background-color: $light-layout;
+    }
+    &__loc {
+        margin-right: 15px;
+    }
+    &__loc-text {
+        margin-right: 7px;
+    }
+}
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}

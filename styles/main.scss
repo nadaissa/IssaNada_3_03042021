@@ -4,16 +4,16 @@
 @import './utils/functions';
 
 /*Base import*/
-@import './base/reset';
 @import './base/general';
 @import './base/typography';
 
 /*Layout import*/
-@import './layout/primary_content';
-@import './layout/flex';
 @import './layout/header';
-@import './layout/footer';
+@import './layout/sub_header';
 @import './layout/navigation';
+@import './layout/primary_content';
+@import './layout/footer';
+
 
 /*Components import*/
 @import './components/images';
