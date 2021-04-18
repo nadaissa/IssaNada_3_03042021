@@ -37,7 +37,7 @@
 .nav {
    @include flex-column-center;
    text-align: center;
-   vertical-align: middle;
+   padding-top: 18px;
    &__h2 {
        align-self: flex-start
    }
@@ -48,9 +48,11 @@
    &__btn {
        background-color: $lighter-layout;
        @include border-radius-shadow;
-       padding: 20px;
-       width: 95%;
-
+       padding: 22.5px;
+       width: 98%;
+       margin-top: 5px;
+       margin-bottom: 15px;
+       
    }
    &__nmb {
        background-color: $primary-color;

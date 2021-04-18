@@ -302,7 +302,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  vertical-align: middle;
+  padding-top: 18px;
 }
 
 .nav__h2 {
@@ -330,8 +330,10 @@ button {
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
-  padding: 20px;
-  width: 95%;
+  padding: 22.5px;
+  width: 98%;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .nav__nmb {
