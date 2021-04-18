@@ -4,7 +4,7 @@
   "description": "project for openclassroom course",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./styles/main.scss: main.css"
+    "prefix": "postcss ./styles/main.css --use autoprefixer -d ./styles/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   ],
   "author": "Nada Issa",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/nadaissa/IssaNada_3_03042021/issues"
   },
