@@ -213,9 +213,7 @@ body {
 }
 
 .main-header__logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  width: 150px;
 }
 
 .menu-header {
@@ -236,15 +234,11 @@ body {
 }
 
 .menu-header__logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  width: 150px;
 }
 
 .menu-header__back {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  margin-right: 10px;
 }
 
 .intro {

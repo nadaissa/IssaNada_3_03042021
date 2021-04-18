@@ -1,18 +1,18 @@
 .main-header {
     @include common-header;
     &__logo {
-        flex: 0 0 50%;
+        width: 150px;
     }
 }
 
 .menu-header {
     @include common-header;
     &__logo {
-        flex: 0 0 50%;
+        width: 150px;
     }
 
     &__back {
-        flex: 0 0 50%;
+        margin-right: 10px;
     }
 
 }
