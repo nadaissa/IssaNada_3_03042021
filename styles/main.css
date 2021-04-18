@@ -468,6 +468,14 @@ ul {
 }
 
 /*menu page*/
+.image-section {
+  width: 100%;
+}
+
+.image-section__img {
+  width: 100%;
+}
+
 /*Components import*/
 /*common buttons*/
 .description__btn {
