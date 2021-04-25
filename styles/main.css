@@ -219,6 +219,24 @@ ul {
   border: solid tomato;
 }
 
+/*Components import*/
+/*common buttons*/
+.description__btn {
+  background-color: #FF79DA;
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.restaurant-btn {
+  background-color: #FF79DA;
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*Layout import*/
 .header {
   padding: 0px;
@@ -506,23 +524,5 @@ ul {
 
 .footer__lk {
   color: white;
-}
-
-/*Components import*/
-/*common buttons*/
-.description__btn {
-  background-color: #FF79DA;
-  border: none;
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.restaurant-btn {
-  background-color: #FF79DA;
-  border: none;
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
