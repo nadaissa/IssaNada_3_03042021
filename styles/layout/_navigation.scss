@@ -5,7 +5,7 @@
     &__btn {
         padding-bottom: 10px;
         padding-top: 10px;
-        background-color: $light-layout;
+        background-color: map-get($layout-colors, light);
     }
     &__loc {
         margin-right: 15px;
@@ -19,7 +19,7 @@
     text-align: center;
     padding-bottom: 50px;
     padding-top: 15px;
-    background-color: $lighter-layout;
+    background-color: map-get($layout-colors, lighter);
     &__h1 {
         width: 75%;
         padding: 0px;
@@ -51,7 +51,7 @@
        flex-flow: row nowrap;
        justify-content: space-evenly;
        align-items: center;
-       background-color: $lighter-layout;
+       background-color: map-get($layout-colors, lighter);
        @include border-radius-shadow;
        padding: 22px;
        width: 98%;
@@ -60,12 +60,12 @@
        
    }
    &__nmb {
-       background-color: $primary-color;
+       background-color: map-get($identity-colors, primary);
        border-radius: 10px;
        padding: 2px 6px 2px 6px;
        font-weight: normal;
        font-size: 0.8rem;
-       color: $secondary-text;
+       color: map-get($text-colors, secondary);
        margin-left: -50px;
     }
     &__i {

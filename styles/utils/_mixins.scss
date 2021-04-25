@@ -19,7 +19,7 @@
 }
 
 @mixin common-button {
-    background-color: $secondary-color;
+    background-color: map-get($identity-colors, secondary);
     border: none;
     border-radius: 20px;
     padding-top: 10px;

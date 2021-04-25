@@ -1,7 +1,7 @@
 /*main page*/
 .food-section {
     @include flex-column-center;
-    background-color: $lighter-layout;
+    background-color: map-get($layout-colors, lighter);
     &__h2{
         align-self: flex-start;
     }
@@ -21,8 +21,8 @@
 
     &__tag{
         position: absolute;
-        background-color: $tertiary-color;
-        color: scale-color($tertiary-color, $lightness: -50%);
+        background-color: map-get($identity-colors, tertiary);
+        color: scale-color(map-get ($identity-colors, tertiary), $lightness: -50%);
         font-weight: bold;
     }
     &__img {
