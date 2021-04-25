@@ -18,12 +18,20 @@
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+
 
     &__tag{
         position: absolute;
+        border-radius: 3px;
         background-color: map-get($identity-colors, tertiary);
+        @include txt-sz-wght (small-bold);
         color: map-get($text-colors, tertiary);
-        font-weight: bold;
+        padding: 5px 8px 5px 8px;
+        /*margin-left: 265px;
+        margin-top: 10px; */
+    
     }
     &__img {
        border-radius: 10px 10px 0px 0px;
@@ -66,3 +74,5 @@
     }
 
 }
+
+/*menu pages*/
