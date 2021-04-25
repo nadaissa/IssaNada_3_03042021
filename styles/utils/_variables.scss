@@ -2,6 +2,13 @@
 $title-font: 'Shrikhand', Arial, Helvetica, sans-serif;
 $general-font: 'Roboto',  Arial, Helvetica, sans-serif;
 
+/*text variables*/
+$txt-small: 0.9rem;
+$txt-medium: 1rem;
+$txt-large: 1.3rem;
+
+$txt-bold: bold;
+$txt-normal: normal;
 
 /*Color variables*/
 $identity-colors: 
@@ -23,4 +30,29 @@ $text-colors:
     primary:black, 
     secondary: white,
     tertiary: scale-color(#99E2D0, $lightness: -50%)
+);
+
+/*text size and weight variables*/
+
+$txt-sz-wght:
+(
+    small-normal: (
+        size: $txt-small,
+        weight: $txt-normal,
+    ),
+
+    small-bold: (
+        size: $txt-small,
+        weight: $txt-bold,
+    ),
+
+    medium-bold: (
+        size: $txt-medium,
+        weight: $txt-bold,
+    ),
+
+    big-bold : (
+        size: $txt-large,
+        weight: $txt-bold,
+    )
 );

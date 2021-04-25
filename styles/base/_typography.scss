@@ -16,22 +16,25 @@
 /*general font properties*/
 body{
     font-family: $general-font;
+    color: map-get($text-colors, primary);
 }
 
 h1, h2 {
-    @include big-bold;
+    @include txt-sz-wght (big-bold);
 }
 
 h3 {
-    @include medium-bold;
+    @include txt-sz-wght (medium-bold);
 }
 
 p, span, li {
-    @include small-no-bold;
+    @include txt-sz-wght (small-normal);
+
+    
 }
 
 button {
-    @include small-bold;
+    @include txt-sz-wght (small-bold);
 }
 
 a {

@@ -1,6 +1,8 @@
 /*Utils import*/
 /*Font variables*/
+/*text variables*/
 /*Color variables*/
+/*text size and weight variables*/
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -26,6 +28,7 @@
 /*general font properties*/
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 h1, h2 {
@@ -40,6 +43,7 @@ h3 {
 
 p, span, li {
   font-size: 0.9rem;
+  font-weight: normal;
 }
 
 button {

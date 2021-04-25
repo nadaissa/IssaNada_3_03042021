@@ -1,21 +1,7 @@
-@mixin big-bold {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-@mixin medium-bold {
-    font-size: 1rem;
-    font-weight: bold;
-
-}
-
-@mixin small-bold {
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-@mixin small-no-bold {
-    font-size: 0.9rem;
+@mixin txt-sz-wght ($type) {
+    $text-style: map-get($txt-sz-wght, $type);
+    font-size: map-get($text-style,  size);
+    font-weight: map-get($text-style, weight);
 }
 
 @mixin common-button {
