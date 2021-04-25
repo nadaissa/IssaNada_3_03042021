@@ -4,7 +4,7 @@
   "description": "project for openclassroom course",
   "main": "index.js",
   "scripts": {
-    "prefix": "postcss ./styles/main.css --use autoprefixer -d ./styles/prefixed/"
+    "prefix": "postcss ./styles/css/main.css --use autoprefixer -d ./styles/css/prefixed/"
   },
   "repository": {
     "type": "git",
