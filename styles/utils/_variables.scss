@@ -21,5 +21,6 @@ $layout-colors:
 $text-colors: 
 (
     primary:black, 
-    secondary: white
+    secondary: white,
+    tertiary: scale-color(#99E2D0, $lightness: -50%)
 );
