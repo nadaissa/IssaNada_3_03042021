@@ -109,7 +109,29 @@
 //.dishes-wrapper
 .dish-card {
     background-color: white;
-    @include border-radius-shadow;
+    @include border-radius-shadow border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 13px;
+    &__txt {
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0px;    
+    }
+    &__name, &__details {
+        margin: 0px;
+    }
+    &__price {
+        align-self: flex-end;
+        margin-bottom: 0px;
+        margin-right: 5px;
+        @include txt-sz-wght (small-bold);
+    }
+    &__check {
+        display: none;
+    }
 }
 
 

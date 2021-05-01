@@ -172,6 +172,9 @@ ul {
 
 .dish-card {
     border: solid orangered;
+    &__txt {
+        border: solid darkcyan;
+    }
     &__name {
         border: solid black;
     }
