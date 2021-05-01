@@ -343,7 +343,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  max-width: 18rem;
+  max-width: 280px;
 }
 
 .discription__h1 {
@@ -360,6 +360,7 @@ ul {
 }
 
 .nav {
+  border: solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,9 +371,27 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 18px;
   padding-bottom: 45px;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.nav__wrap {
+  border: solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav__h2 {
@@ -381,17 +400,16 @@ ul {
 }
 
 .nav__list {
+  padding: 0px;
+  margin: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 95%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav__btn {
@@ -414,7 +432,7 @@ ul {
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
   padding: 22px;
-  width: 98%;
+  width: 280px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
@@ -423,8 +441,8 @@ ul {
   background-color: #9356DC;
   border-radius: 10px;
   padding: 2px 6px 2px 6px;
+  font-size: 0.9rem;
   font-weight: normal;
-  font-size: 0.8rem;
   color: white;
   margin-left: -50px;
 }
@@ -432,6 +450,10 @@ ul {
 .nav__i {
   color: grey;
   font-size: medium;
+}
+
+.nav__btn-txt {
+  text-align: left;
 }
 
 /*main page*/
