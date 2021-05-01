@@ -17,6 +17,7 @@
 body{
     font-family: $general-font;
     color: map-get($text-colors, primary);
+    padding: 0px;
 }
 
 h1, h2 {
