@@ -39,7 +39,7 @@
        max-height: 145px; 
        object-fit: cover;
     }
-    &__text{
+    /*&__text{
         width: 95%;
         max-height: 70px;
         padding: 0px;
@@ -48,7 +48,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-    }
+    }*/
     &__name{
         margin-bottom: 0px;
         margin-top: 0px;
@@ -59,10 +59,23 @@
         margin-right: 40px;
     }
     &__i {
-        align-self: flex-end;
-        margin-top: -50px;
+        //align-self: flex-end;
+        //margin-top: -50px;
         margin-right: 10px;
         font-size: x-large;
+    }
+    &__label {
+        width: 95%;
+        max-height: 70px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__txt {
+        margin-left: 5px;
     }
 }
 
