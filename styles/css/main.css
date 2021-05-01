@@ -52,7 +52,7 @@ p, span, li {
   font-weight: normal;
 }
 
-button {
+button, button span {
   font-size: 0.9rem;
   font-weight: bold;
   border-style: none;
@@ -272,12 +272,6 @@ ul {
     flex-flow: column nowrap;
     margin: 0px;
     width: 100%;*/
-  /*&__loc {
-        margin-right: 22px;
-    }
-    &__loc-text {
-        margin-right: 8px;
-    }*/
 }
 
 .intro__btn {
@@ -292,6 +286,26 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.intro__btn-wrap {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro__btn-loc {
+  margin-right: 10px;
+}
+
+.intro__btn-txt {
+  margin-left: 0px;
 }
 
 .description {

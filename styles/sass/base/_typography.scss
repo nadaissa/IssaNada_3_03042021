@@ -14,7 +14,7 @@
    }
 
 /*general font properties*/
-body{
+body {
     font-family: $general-font;
     color: map-get($text-colors, primary);
     padding: 0px;
@@ -34,7 +34,7 @@ p, span, li {
     
 }
 
-button {
+button, button span {
     @include txt-sz-wght (small-bold);
     border-style: none;
 }

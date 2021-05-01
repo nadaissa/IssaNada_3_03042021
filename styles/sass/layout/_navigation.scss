@@ -13,13 +13,23 @@
         display: flex;
         justify-content: center;
     }
-    /*&__loc {
-        margin-right: 22px;
+    &__btn-wrap {
+        margin:0px;
+        padding-left: 0px;
+        padding-right: 18px;
+        display: flex;
+        justify-content: space-between;
     }
-    &__loc-text {
-        margin-right: 8px;
-    }*/
+
+    &__btn-loc {
+        margin-right: 10px;
+    }
+    &__btn-txt {
+        margin-left: 0px;
+    }
+
 }
+
 .description {
     @include flex-column-center;
     text-align: center;
