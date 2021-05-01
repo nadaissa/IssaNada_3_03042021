@@ -5,11 +5,12 @@
 }
 
 @mixin common-button {
+    @include txt-sz-wght (medium-normal);
     background-color: map-get($identity-colors, secondary);
-    border: none;
+    color: map-get($text-colors , secondary);
     border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 @mixin flex-column-center{

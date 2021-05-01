@@ -214,19 +214,23 @@ ul {
 /*Components import*/
 /*common buttons*/
 .discription__btn {
+  font-size: 1rem;
+  font-weight: normal;
   background-color: #FF79DA;
-  border: none;
+  color: white;
   border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .restaurant-btn {
+  font-size: 1rem;
+  font-weight: normal;
   background-color: #FF79DA;
-  border: none;
+  color: white;
   border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 /*Layout import*/
