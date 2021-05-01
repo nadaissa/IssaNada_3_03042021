@@ -36,6 +36,7 @@ p, span, li {
 
 button {
     @include txt-sz-wght (small-bold);
+    border-style: none;
 }
 
 a {
@@ -78,10 +79,9 @@ ul {
 /*main parts*/
 .intro{
     border: solid pink;
-    &__loc {
+    /*&__loc {
         border: solid chartreuse;
-    }
-
+    }*/
 }
 
 /*.description {
