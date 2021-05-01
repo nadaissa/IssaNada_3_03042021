@@ -319,21 +319,38 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  /*text-align: center;*/
   padding-bottom: 50px;
   padding-top: 15px;
   background-color: #F8F8F8;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.description__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 18rem;
 }
 
 .description__h1 {
-  width: 75%;
-  padding: 0px;
+  /*width: 75%;
+        padding: 0px;*/
   margin-bottom: 1px;
 }
 
 .description__p {
-  width: 90%;
-  padding: 0px;
+  /*width: 90%;
+        padding: 0px;*/
   margin-top: 1px;
   margin-bottom: 30px;
 }
