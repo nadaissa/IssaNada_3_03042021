@@ -214,23 +214,23 @@ ul {
 /*Components import*/
 /*common buttons*/
 .discription__btn {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: normal;
-  background-color: #FF79DA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: white;
   border-radius: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 16px 12px 16px;
 }
 
 .restaurant-btn {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: normal;
-  background-color: #FF79DA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: white;
   border-radius: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 16px 12px 16px;
 }
 
 /*Layout import*/
