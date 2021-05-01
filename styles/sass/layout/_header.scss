@@ -1,12 +1,12 @@
 .header {
-    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin: 0px;
     &__logo {
-        flex: 0 0 50%;
+        width: 9rem;
     }
     &__back {
         position: absolute;

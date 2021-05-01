@@ -66,44 +66,47 @@ ul {
 }
 
 /*temporary borders*/
-/*common parts
-.main-wrapper {
+/*common parts*/
+/*.main-wrapper {
     border: solid brown;
+}*/
+.header {
+  border: solid brown;
+  /*&__logo {
+        border: solid black;
+    }*/
 }
 
-.header {
-    border: solid brown;
-    &__logo {
-        border: solid black;
-    }
-    &__back {
-        border: solid chartreuse;
-    }
+.header__back {
+  border: solid chartreuse;
 }
 
 .footer {
-    border: solid greenyellow;
-    
-    &__h2 {
-        border: solid hotpink;
-    }
-    &__ul {
-        border: solid black;
-    }
-    &__li {
-        border: solid blue;
-    }
-}*/
-/*main parts
-.intro{
-    border: solid pink;
-    &__loc {
-        border: solid chartreuse;
-    }
-
+  border: solid greenyellow;
 }
 
-.description {
+.footer__h2 {
+  border: solid hotpink;
+}
+
+.footer__ul {
+  border: solid black;
+}
+
+.footer__li {
+  border: solid blue;
+}
+
+/*main parts*/
+.intro {
+  border: solid pink;
+}
+
+.intro__loc {
+  border: solid chartreuse;
+}
+
+/*.description {
     border: solid brown;
     &__h1 {
         border: solid black;
@@ -121,20 +124,20 @@ ul {
     &__list {
         border: solid lime;
     }
+}*/
+.food-section {
+  border: solid mediumvioletred;
 }
 
-.food-section {
-    border: solid mediumvioletred;
-    &__h2 {
-        border: solid olive;
-    }
+.food-section__h2 {
+  border: solid olive;
 }
 
 .cards-wrap {
-    border: solid orangered;
+  border: solid orangered;
 }
 
-.card {
+/*.card {
     border: solid paleturquoise;
     &__tag {
         border: solid black;
@@ -155,41 +158,42 @@ ul {
 
     }
 }*/
-/*menu page parts
+/*menu page parts*/
 .image-section {
-    border: solid greenyellow;
+  border: solid greenyellow;
 }
 
-.restaurant-wrapper {
+/*.restaurant-wrapper {
     border: solid hotpink;
+}*/
+.restaurant-title {
+  border: solid indigo;
 }
 
-.restaurant-title {
-    border: solid indigo;
-    &__h1 {
-        border: solid steelblue;
-    }
-    &__i {
-        border: solid steelblue;
-    }
+.restaurant-title__h1 {
+  border: solid steelblue;
+}
+
+.restaurant-title__i {
+  border: solid steelblue;
 }
 
 .menu-wrapper {
-    border: solid tomato;
+  border: solid tomato;
 }
 
 .menu-element {
-    border: solid black;
-    &__name {
+  border: solid black;
+  /*&__name {
         border: solid chocolate;
-    }
+    }*/
 }
 
 .dishes-wrapper {
-    border: solid darkcyan;
+  border: solid darkcyan;
 }
 
-.dish-card {
+/*.dish-card {
     border: solid orangered;
     &__txt {
         border: solid darkcyan;
@@ -227,7 +231,8 @@ ul {
 
 /*Layout import*/
 .header {
-  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,13 +246,10 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px;
 }
 
 .header__logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  width: 9rem;
 }
 
 .header__back {
