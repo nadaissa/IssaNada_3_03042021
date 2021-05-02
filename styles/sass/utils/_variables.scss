@@ -3,6 +3,7 @@ $title-font: 'Shrikhand', Arial, Helvetica, sans-serif;
 $general-font: 'Roboto',  Arial, Helvetica, sans-serif;
 
 /*text variables*/
+$txt-smaller: 0.8rem;
 $txt-small: 0.9rem;
 $txt-medium: 1rem;
 $txt-large: 1.3rem;
@@ -35,6 +36,10 @@ $text-colors:
 
 $txt-sz-wght:
 (
+    smaller-normal: (
+        size: $txt-smaller,
+        weight:$txt-normal,
+    ),
     small-normal: (
         size: $txt-small,
         weight: $txt-normal,
