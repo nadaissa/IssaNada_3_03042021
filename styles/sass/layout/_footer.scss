@@ -21,6 +21,7 @@
         align-self: stretch;
         margin: 0px;
         padding: 0px;
+        width: 280px;
     }
     &__li{
         margin-bottom: 7px; 
@@ -28,7 +29,7 @@
     &__lk {
         display: flex;
         flex-flow: row nowrap;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
         color: map-get($text-colors, secondary);        
     }
@@ -43,7 +44,7 @@
         @include txt-sz-wght (small-bold);
         width: 160px;
         text-align: left;
-        padding-right: 97px;
+        padding-right: 100px;
     }
     &__nrml-lk {
         @include txt-sz-wght (small-normal);
