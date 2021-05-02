@@ -99,18 +99,17 @@
        background-color: map-get($identity-colors, primary);
        border-radius: 10px;
        padding: 2px 6px 2px 6px;
-       @include txt-sz-wght (small-normal);
-       //font-weight: normal;
-       //font-size: 0.8rem;
+       @include txt-sz-wght (smaller-normal);
        color: map-get($text-colors, secondary);
-       margin-left: -50px;
+       margin-left: -48px;
     }
     &__i {
         color: grey;
-        font-size: medium;
+        font-size: large;        
     }
     &__btn-txt {
-        text-align: left;        
+        width: 180px; 
+        text-align: left;     
     }
 
 }
