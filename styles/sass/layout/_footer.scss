@@ -4,7 +4,6 @@
     padding: 10px;
     
     &__wrap {
-        border: solid rosybrown;
         @include flex-column-center;
         align-self: stretch;
         padding-right: 10px;
@@ -24,12 +23,12 @@
         padding: 0px;
     }
     &__li{
-        margin-bottom: 5px; 
+        margin-bottom: 7px; 
     }
     &__lk {
         display: flex;
         flex-flow: row nowrap;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-between;
         color: map-get($text-colors, secondary);        
     }
@@ -44,7 +43,7 @@
         @include txt-sz-wght (small-bold);
         width: 160px;
         text-align: left;
-        padding-right: 85px;
+        padding-right: 97px;
     }
     &__nrml-lk {
         @include txt-sz-wght (small-normal);
