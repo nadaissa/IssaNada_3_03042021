@@ -2,19 +2,22 @@
 .food-section {
     @include flex-column-center;
     background-color: map-get($layout-colors, lighter);
+    padding-left: 10px;
+    padding-right: 10px;
     &__h2{
         align-self: flex-start;
     }
 }
 
 .cards-wrap {
-    width: auto;
+    //width: auto;
     @include flex-column-center;
+    padding: 0px;
 }
 
 .card {
     @include border-radius-shadow;
-    width: 95%;
+    width: 280px;
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
@@ -114,7 +117,7 @@
 //.dishes-wrapper
 .dish-card {
     background-color: map-get($layout-colors , neutral);
-    @include border-radius-shadow border-radius: 13px;
+    @include border-radius-shadow;
     display: flex;
     justify-content: space-between;
     align-items: center;
