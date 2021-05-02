@@ -113,7 +113,7 @@
 
 //.dishes-wrapper
 .dish-card {
-    background-color: white;
+    background-color: map-get($layout-colors , neutral);
     @include border-radius-shadow border-radius: 13px;
     display: flex;
     justify-content: space-between;
