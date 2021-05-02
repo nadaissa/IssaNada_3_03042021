@@ -130,17 +130,16 @@ ul {
 }*/
 .food-section {
   border: solid mediumvioletred;
+  /*&__h2 {
+        border: solid olive;
+    }*/
 }
 
-.food-section__h2 {
-  border: solid olive;
+/*.cards-wrap {
+    border: solid orangered;
 }
 
-.cards-wrap {
-  border: solid orangered;
-}
-
-/*.card {
+.card {
     border: solid paleturquoise;
     &__tag {
         border: solid black;
@@ -691,27 +690,95 @@ ul {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #2e2e2e;
   padding: 10px;
 }
 
+.footer__wrap {
+  border: solid rosybrown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .footer__h2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   margin-top: 0px;
   color: #FFF;
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .footer__ul {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   margin: 0px;
   padding: 0px;
 }
 
 .footer__li {
-  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .footer__lk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #FFF;
+}
+
+.footer__i-s {
+  font-size: small;
+}
+
+.footer__i-xs {
+  font-size: x-small;
+}
+
+.footer__bld-lk {
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 160px;
+  text-align: left;
+  padding-right: 85px;
+}
+
+.footer__nrml-lk {
+  font-size: 0.9rem;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */

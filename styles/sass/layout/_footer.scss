@@ -1,20 +1,52 @@
 .footer {
+    @include flex-column-center;
     background-color: map-get($layout-colors, dark);
     padding: 10px;
+    
+    &__wrap {
+        border: solid rosybrown;
+        @include flex-column-center;
+        align-self: stretch;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     &__h2 {
+        align-self: flex-start;
         margin-top: 0px;
         color: map-get($text-colors, secondary);
         font-family: $title-font;
-        font-size: 1rem;
+        @include txt-sz-wght (medium-bold);
+        //font-size: 1rem;
     }
     &__ul{
+        align-self: stretch;
         margin: 0px;
         padding: 0px;
     }
     &__li{
-        margin-top: 5px;
+        margin-bottom: 5px; 
     }
     &__lk {
-        color: map-get($text-colors, secondary);
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        color: map-get($text-colors, secondary);        
+    }
+    &__i-s {
+        font-size: small;
+    }
+    &__i-xs {
+        font-size: x-small;
+    }
+
+    &__bld-lk {
+        @include txt-sz-wght (small-bold);
+        width: 160px;
+        text-align: left;
+        padding-right: 85px;
+    }
+    &__nrml-lk {
+        @include txt-sz-wght (small-normal);
     }
 }
