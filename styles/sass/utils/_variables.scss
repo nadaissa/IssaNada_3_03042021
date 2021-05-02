@@ -23,13 +23,14 @@ $layout-colors:
 (
     dark:#2e2e2e,
     light: #F0F0F0, 
-    lighter: #F8F8F8
+    lighter: #F8F8F8,
+    neutral: #FFF
 );
 
 $text-colors: 
 (
-    primary:black, 
-    secondary: white,
+    primary: #000, 
+    secondary: #FFF,
     tertiary: scale-color(#99E2D0, $lightness: -50%)
 );
 /*text size and weight variables*/
