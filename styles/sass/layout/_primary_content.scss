@@ -100,11 +100,11 @@
     //padding-right: 15px;
     margin-top: 180px;
     background-color: map-get($layout-colors, lighter);
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
     &__wrap {
         //border: solid blue;
         @include flex-column-center;
-        margin-top: 20px;
+        margin-top: 30px;
         width: 95%;
         padding: 0px;
         padding-bottom: 62px;
@@ -119,6 +119,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
+    padding-left: 10px;
     &__h1 {
         font-family: $title-font;
         margin: 0px;
@@ -137,7 +139,8 @@
 }
 
 .menu-element {
-    padding-top: 10px;
+    //padding-top: 10px;
+    padding: 10px 5px 0px 5px;
     display: flex;
     flex-flow: column nowrap;
 
@@ -169,7 +172,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5px 10px 5px;
+    padding: 8px 5px 8px 5px;
     margin-bottom: 13px;
     &__txt {
         display: flex;
@@ -178,12 +181,12 @@
     }
     &__name {
         @include txt-sz-wght (small-bold);
-        margin: 0px;
+        margin: 2.5px;
     }
     
     &__details {
         @include txt-sz-wght (smaller-normal);
-        margin: 0px;
+        margin: 2.5px;
     }
     &__price {
         align-self: flex-end;
