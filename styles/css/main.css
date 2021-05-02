@@ -140,27 +140,33 @@ ul {
   border: solid orangered;
 }
 
-/*.card {
-    border: solid paleturquoise;
+.card {
+  /*border: solid paleturquoise;
     &__tag {
         border: solid black;
-    }
-    &__text {
-        border: solid orangered;
-    }
-    &__name {
-        border: solid black;
+    }*/
+}
 
-    }
-    &__location {
-        border: solid orangered;
+.card__label {
+  border: solid goldenrod;
+}
 
-    }
-    &__i {
-        border: solid black;
+.card__text {
+  border: solid orangered;
+}
 
-    }
-}*/
+.card__name {
+  border: solid black;
+}
+
+.card__location {
+  border: solid orangered;
+}
+
+.card__i {
+  border: solid black;
+}
+
 /*menu page parts*/
 .image-section {
   border: solid greenyellow;
@@ -499,10 +505,6 @@ ul {
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
-  width: 280px;
-  margin-bottom: 10px;
-  height: 210px;
-  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,6 +512,13 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 280px;
+  margin-bottom: 10px;
+  height: 210px;
+  margin-bottom: 20px;
 }
 
 .card__tag {
@@ -520,8 +529,8 @@ ul {
   font-weight: bold;
   color: #2a947a;
   padding: 5px 8px 5px 8px;
-  /*margin-left: 265px;
-        margin-top: 10px; */
+  margin-left: 190px;
+  margin-top: 10px;
 }
 
 .card__img {

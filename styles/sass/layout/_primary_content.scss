@@ -17,14 +17,14 @@
 
 .card {
     @include border-radius-shadow;
+    @include flex-column-center;
+    //display: flex;
+    //flex-flow: column nowrap;
     width: 280px;
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
-    display: flex;
-    flex-flow: column nowrap;
-
-
+    
     &__tag{
         position: absolute;
         border-radius: 3px;
@@ -32,8 +32,8 @@
         @include txt-sz-wght (small-bold);
         color: map-get($text-colors, tertiary);
         padding: 5px 8px 5px 8px;
-        /*margin-left: 265px;
-        margin-top: 10px; */
+        margin-left: 190px;
+        margin-top: 10px;
     
     }
     &__img {
