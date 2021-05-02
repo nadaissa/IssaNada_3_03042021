@@ -41,6 +41,11 @@ $txt-sz-wght:
         size: $txt-smaller,
         weight:$txt-normal,
     ),
+
+    smaller-bold: (
+        size: $txt-smaller,
+        weight: $txt-bold,
+    ),
     small-normal: (
         size: $txt-small,
         weight: $txt-normal,
