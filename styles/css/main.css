@@ -629,7 +629,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20px;
-  width: 90%;
+  width: 95%;
   padding: 0px;
 }
 
@@ -676,6 +676,13 @@ ul {
   font-size: 0.9rem;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.menu-element__name:after {
+  content: '';
+  display: block;
+  width: 13%;
+  padding-top: 4px;
   border-bottom: solid 3px #99E2D0;
 }
 

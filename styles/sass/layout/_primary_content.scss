@@ -103,7 +103,7 @@
         border: solid blue;
         @include flex-column-center;
         margin-top: 20px;
-        width: 90%;
+        width: 95%;
         padding: 0px;
     }
     
@@ -137,8 +137,16 @@
     &__name {
     @include txt-sz-wght (small-normal);
     text-transform: uppercase;
-    border-bottom: solid 3px map-get($identity-colors, tertiary);
-}
+    //border-bottom: solid 3px map-get($identity-colors, tertiary);
+        &:after {
+            content:'';
+            display: block;
+            width: 13%;
+            padding-top: 4px;
+            border-bottom: solid 3px map-get($identity-colors, tertiary);;
+
+        }
+    }
 }
 
 //.dishes-wrapper
