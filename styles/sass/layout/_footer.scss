@@ -1,7 +1,7 @@
 .footer {
     @include flex-column-center;
     background-color: map-get($layout-colors, dark);
-    padding: 10px;
+    padding: 15px 10px 15px 10px;
     
     &__wrap {
         @include flex-column-center;
