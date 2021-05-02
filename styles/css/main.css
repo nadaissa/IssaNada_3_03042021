@@ -240,7 +240,7 @@ ul {
 
 /*Layout import*/
 .header {
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -252,18 +252,24 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /*&__link {
+    }*/
 }
 
 .header__logo {
-  width: 9rem;
+  width: 140px;
 }
 
 .header__back {
   position: absolute;
   width: 90%;
+}
+
+.header__i {
+  font-size: medium;
 }
 
 .intro {

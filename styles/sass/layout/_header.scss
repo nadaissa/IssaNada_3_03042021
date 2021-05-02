@@ -1,15 +1,20 @@
 .header {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     &__logo {
-        width: 9rem;
+        width: 140px;
     }
     &__back {
         position: absolute;
         width: 90%;
+    }
+    /*&__link {
+    }*/
+    &__i {
+        font-size: medium;
     }
 }
