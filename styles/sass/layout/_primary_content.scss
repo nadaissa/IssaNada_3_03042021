@@ -29,17 +29,17 @@
         position: absolute;
         border-radius: 3px;
         background-color: map-get($identity-colors, tertiary);
-        @include txt-sz-wght (small-bold);
+        @include txt-sz-wght (smaller-bold);
         color: map-get($text-colors, tertiary);
         padding: 5px 8px 5px 8px;
-        margin-left: 190px;
+        margin-left: 205px;
         margin-top: 10px;
     
     }
     &__img {
        border-radius: 10px 10px 0px 0px;
        width: 100%;
-       max-height: 145px; 
+       max-height: 147px; 
        object-fit: cover;
     }
     &__label {
@@ -48,7 +48,7 @@
         //padding-left: 10px;
         //padding-right: 10px;
         padding: 5px 10px 5px 10px;
-        //margin-top: 5px;
+        margin-top: 6px;
         //margin-left: 6px;
         display: flex;
         justify-content: space-between;
@@ -62,10 +62,14 @@
     }
     
     &__name{
+        @include txt-sz-wght (small-bold);
+        padding: 0px;
         margin-bottom: 0px;
         margin-top: 0px;
     }
     &__location{
+        @include txt-sz-wght (small-normal);
+        padding-top: 0px;
         margin-top: 0px;
     }
     &__i {
@@ -74,8 +78,7 @@
         //margin-right: 10px;
         font-size: large;
         flex-grow: 1;
-        text-align: center;
-        vertical-align: bottom;
+        text-align: right;
         padding-top: 5px;
     }
 
