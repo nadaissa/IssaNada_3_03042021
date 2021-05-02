@@ -102,12 +102,12 @@
     background-color: map-get($layout-colors, lighter);
     border-radius: 40px 40px 0px 0px;
     &__wrap {
-        border: solid blue;
+        //border: solid blue;
         @include flex-column-center;
         margin-top: 20px;
         width: 95%;
         padding: 0px;
-        padding-bottom: 70px;
+        padding-bottom: 62px;
     }
     
 }

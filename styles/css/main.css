@@ -171,33 +171,30 @@ ul {
 /*.restaurant-wrapper {
     border: solid hotpink;
 }*/
-.restaurant-title {
-  border: solid indigo;
-}
-
-.restaurant-title__h1 {
-  border: solid steelblue;
-}
-
-.restaurant-title__i {
-  border: solid steelblue;
+/*.restaurant-title {
+    border: solid indigo;
+    &__h1 {
+        border: solid steelblue;
+    }
+    &__i {
+        border: solid steelblue;
+    }
 }
 
 .menu-wrapper {
-  border: solid tomato;
+    border: solid tomato;
 }
 
 .menu-element {
-  border: solid black;
-  /*&__name {
+    border: solid black;
+    /*&__name {
         border: solid chocolate;
-    }*/
+    }
 }
 
 .dishes-wrapper {
-  border: solid darkcyan;
-}
-
+    border: solid darkcyan;
+}*/
 /*.dish-card {
     border: solid orangered;
     &__txt {
@@ -617,7 +614,6 @@ ul {
 }
 
 .restaurant-section__wrap {
-  border: solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -631,7 +627,7 @@ ul {
   margin-top: 20px;
   width: 95%;
   padding: 0px;
-  padding-bottom: 70px;
+  padding-bottom: 62px;
 }
 
 .restaurant-title {
