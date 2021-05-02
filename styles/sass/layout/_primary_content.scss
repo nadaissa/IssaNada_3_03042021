@@ -96,6 +96,8 @@
 .restaurant-section {
     @include flex-column-center;
     //position: relative;
+    //padding-left: 15px;
+    //padding-right: 15px;
     margin-top: 180px;
     background-color: map-get($layout-colors, lighter);
     border-radius: 40px 40px 0px 0px;
@@ -105,6 +107,7 @@
         margin-top: 20px;
         width: 95%;
         padding: 0px;
+        padding-bottom: 70px;
     }
     
 }
@@ -130,51 +133,72 @@
     align-self: stretch;
     display: flex;
     flex-flow: column nowrap;
+    padding-bottom: 35px;
 }
 
 .menu-element {
     padding-top: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+
     &__name {
     @include txt-sz-wght (small-normal);
     text-transform: uppercase;
-    //border-bottom: solid 3px map-get($identity-colors, tertiary);
         &:after {
             content:'';
             display: block;
             width: 13%;
             padding-top: 4px;
-            border-bottom: solid 3px map-get($identity-colors, tertiary);;
+            border-bottom: solid 3px map-get($identity-colors, tertiary);
 
         }
     }
 }
 
-//.dishes-wrapper
+.dishes-wrapper {
+    @include flex-column-center;
+    //align-self: stretch;
+    padding: 0px;
+    //width: 280px;
+}
+
 .dish-card {
     background-color: map-get($layout-colors , neutral);
     @include border-radius-shadow;
+    align-self: stretch;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 5px 10px 5px;
     margin-bottom: 13px;
     &__txt {
         display: flex;
         flex-flow: column nowrap;
         padding: 0px;    
     }
-    &__name, &__details {
+    &__name {
+        @include txt-sz-wght (small-bold);
+        margin: 0px;
+    }
+    
+    &__details {
+        @include txt-sz-wght (smaller-normal);
         margin: 0px;
     }
     &__price {
         align-self: flex-end;
         margin-bottom: 0px;
         margin-right: 5px;
-        @include txt-sz-wght (small-bold);
+        @include txt-sz-wght (smaller-bold);
     }
     &__check {
         display: none;
     }
+}
+
+.restaurant-btn {
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 

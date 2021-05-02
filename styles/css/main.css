@@ -631,6 +631,7 @@ ul {
   margin-top: 20px;
   width: 95%;
   padding: 0px;
+  padding-bottom: 70px;
 }
 
 .restaurant-title {
@@ -666,10 +667,18 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  padding-bottom: 35px;
 }
 
 .menu-element {
   padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .menu-element__name {
@@ -686,12 +695,28 @@ ul {
   border-bottom: solid 3px #99E2D0;
 }
 
+.dishes-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
 .dish-card {
   background-color: #FFF;
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   border: none;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -701,7 +726,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+  padding: 10px 5px 10px 5px;
   margin-bottom: 13px;
 }
 
@@ -716,7 +741,15 @@ ul {
   padding: 0px;
 }
 
-.dish-card__name, .dish-card__details {
+.dish-card__name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.dish-card__details {
+  font-size: 0.8rem;
+  font-weight: normal;
   margin: 0px;
 }
 
@@ -725,12 +758,17 @@ ul {
       align-self: flex-end;
   margin-bottom: 0px;
   margin-right: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
 .dish-card__check {
   display: none;
+}
+
+.restaurant-btn {
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .footer {
