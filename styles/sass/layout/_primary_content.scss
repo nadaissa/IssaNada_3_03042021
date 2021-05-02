@@ -2,8 +2,7 @@
 .food-section {
     @include flex-column-center;
     background-color: map-get($layout-colors, lighter);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 25px 10px 35px 10px;
     &__h2{
         align-self: flex-start;
     }
