@@ -20,13 +20,13 @@ body {
 /*fonts links*/
 @font-face {
   font-family: 'Shrikhand';
-  src: url("https://github.com/nadaissa/IssaNada_3_03042021/tree/dev/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+  src: url("../../fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
