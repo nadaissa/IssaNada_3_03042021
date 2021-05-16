@@ -75,12 +75,14 @@ $text-colors:
 
 /*media queries variables*/
 /*First breakpoint*/
-$screen-sm-min: 597px;
-$screen-sm-max: 768px;
+$screen-sm-md-min: 597px;
+
+
+//$screen-md-lg-min: 768px;
  
 /*Second breakpoint*/
-$screen-md-min: 769px;
-$screen-md-max: 937px;
+//$screen-md-min: 769px;
+//$screen-md-max: 937px;
  
 /*Third breakpoint*/
-$screen-lg-min: 9px;
+//$screen-lg-min: 937px;

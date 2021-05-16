@@ -7,12 +7,15 @@
     align-items: flex-start;
     &__logo {
         width: 140px;
-        @include mobile-tab {
+        @include medium-screen {
+            width: 170px;
+        }
+        /*@include mobile-tab {
             width: 170px;
         }
         @include tab-desktop {
             width: 170px;
-        }
+        }*/
     }
     &__back {
         position: absolute;

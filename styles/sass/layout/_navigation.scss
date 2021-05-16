@@ -37,23 +37,29 @@
     padding-top: 15px;
     background-color: map-get($layout-colors, lighter);
     align-self: stretch;
-    @include mobile-tab {
+    @include medium-screen {
+        padding-bottom: 10px;
+    }
+    /*@include mobile-tab {
         padding-bottom: 10px;
     }
     @include tab-desktop {
         padding-bottom: 10px;
-    }
+    }*/
     &__wrap {
         //border: solid black;
         @include flex-column-center;
         text-align: center;
         max-width: 280px;
-        @include mobile-tab {
+        @include medium-screen {
+            max-width: 450px;
+        }
+        /*@include mobile-tab {
             max-width: 450px;
         }
         @include tab-desktop {
             max-width: 450px;
-        }
+        }*/
     }
     &__h1 {
         /*width: 75%;
@@ -65,12 +71,15 @@
         padding: 0px;*/
         margin-top:1px;
         margin-bottom: 30px;
-        @include mobile-tab {
+        @include medium-screen {
+            margin-bottom: 10px;
+        }
+        /*@include mobile-tab {
             margin-bottom: 10px;
         }
         @include tab-desktop {
             margin-bottom: 10px;
-        }
+        }*/
     }
 }
 
@@ -80,12 +89,15 @@
    //padding-top: 18px;
    //padding-bottom: 45px;
    align-self: stretch;
-   @include mobile-tab {
+   @include medium-screen {
+       padding-bottom: 0px;
+   }
+   /*@include mobile-tab {
        padding-bottom: 0px;
    }
    @include tab-desktop {
        padding-bottom: 0px;
-   }
+   }*/
    &__wrap {
     @include flex-column-center;
     //padding-right: 10px;
@@ -116,14 +128,18 @@
       // width: 98%;
        margin-top: 5px;
        margin-bottom: 15px;
-       @include mobile-tab {
+       @include medium-screen {
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       /*@include mobile-tab {
            margin-left: 10px;
            margin-right: 10px;
        }
        @include tab-desktop {
         margin-left: 10px;
         margin-right: 10px;
-    }        
+    }*/ 
    }
    &__nmb {
        background-color: map-get($identity-colors, primary);
