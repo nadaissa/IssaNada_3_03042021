@@ -12,6 +12,11 @@
     //width: auto;
     @include flex-column-center;
     padding: 0px;
+    @include mobile-tab {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly
+    }
 }
 
 .card {
@@ -23,6 +28,11 @@
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
+    @include mobile-tab {
+        width: 260px;
+        //margin-right: 5px;
+        //margin-left: 5px;
+    }
     
     &__tag{
         position: absolute;
@@ -33,6 +43,9 @@
         padding: 5px 8px 5px 8px;
         margin-left: 205px;
         margin-top: 10px;
+        @include mobile-tab {
+            margin-left: 180px;
+        }
     
     }
     &__img {

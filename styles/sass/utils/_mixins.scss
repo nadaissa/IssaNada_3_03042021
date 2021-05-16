@@ -23,3 +23,9 @@
     box-shadow: 5px 5px 5px rgb(212, 206, 206);
     border: none;
 }
+
+@mixin mobile-tab {
+    @media screen and (min-width: #{$screen-sm-min: 597px;}) and (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}

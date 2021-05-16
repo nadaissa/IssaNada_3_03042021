@@ -3,6 +3,11 @@
 /*text variables*/
 /*Maps text size and weight variables*/
 /*Maps Color variables*/
+/*media queries variables*/
+/*First breakpoint*/
+/*Second breakpoint*/
+/*Third breakpoint*/
+/*Forth breakpoint*/
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -68,154 +73,180 @@ ul {
 
 /*temporary borders*/
 /*common parts*/
-/*.main-wrapper {
-    border: solid brown;
+.main-wrapper {
+  border: solid brown;
 }
 
 .header {
-    border: solid brown;
-    &__logo {
-        border: solid black;
-    }
-    &__back {
-        border: solid chartreuse;
-    }
+  border: solid brown;
+}
+
+.header__logo {
+  border: solid black;
+}
+
+.header__back {
+  border: solid chartreuse;
 }
 
 .footer {
-    border: solid greenyellow;
-    
-    &__wrap {
-        border: solid red;
-    }
-    &__h2 {
-        border: solid hotpink;
-    }
-    &__ul {
-        border: solid gold;
-    }
-    &__li {
-        border: solid blue;
-    }
-}*/
+  border: solid greenyellow;
+}
+
+.footer__wrap {
+  border: solid red;
+}
+
+.footer__h2 {
+  border: solid hotpink;
+}
+
+.footer__ul {
+  border: solid gold;
+}
+
+.footer__li {
+  border: solid blue;
+}
+
 /*main parts*/
-/*.intro{
-    border: solid pink;
-    &__loc {
-        border: solid chartreuse;
-    }
+.intro {
+  border: solid pink;
+}
+
+.intro__loc {
+  border: solid chartreuse;
 }
 
 .discription {
-    border: solid brown;
-    &__h1 {
-        border: solid black;
-    }
-    &__p {
-        border: solid magenta;
-    }
+  border: solid brown;
+}
+
+.discription__h1 {
+  border: solid black;
+}
+
+.discription__p {
+  border: solid magenta;
 }
 
 .nav {
-    border: solid lightseagreen;
-    &__h2 {
-        border: solid lightslategray;
-    }
-    &__wrap {
-       border: solid lightseagreen; 
-    }
-    &__list {
-        border: solid lime;
-    }
+  border: solid lightseagreen;
+}
+
+.nav__h2 {
+  border: solid lightslategray;
+}
+
+.nav__wrap {
+  border: solid lightseagreen;
+}
+
+.nav__list {
+  border: solid lime;
 }
 
 .food-section {
-    border: solid mediumvioletred;
-    &__h2 {
-        border: solid olive;
-    }
+  border: solid mediumvioletred;
+}
+
+.food-section__h2 {
+  border: solid olive;
 }
 
 .cards-wrap {
-    border: solid orangered;
+  border: solid orangered;
 }
 
 .card {
-    border: solid paleturquoise;
-    &__tag {
-        border: solid black;
-    }
-    &__label {
-        border: solid goldenrod;
-    }
-    &__txt {
-        border: solid orangered;
-    }
-    &__name {
-        border: solid black;
+  border: solid paleturquoise;
+}
 
-    }
-    &__location {
-        border: solid orangered;
+.card__tag {
+  border: solid black;
+}
 
-    }
-    &__i {
-        border: solid black;
+.card__label {
+  border: solid goldenrod;
+}
 
-    }
-}*/
+.card__txt {
+  border: solid orangered;
+}
+
+.card__name {
+  border: solid black;
+}
+
+.card__location {
+  border: solid orangered;
+}
+
+.card__i {
+  border: solid black;
+}
+
 /*menu page parts*/
-/*.image-section {
-    border: solid greenyellow;
+.image-section {
+  border: solid greenyellow;
 }
 
 .restaurant-wrapper {
-    border: solid hotpink;
+  border: solid hotpink;
 }
 
 .restaurant-title {
-    border: solid indigo;
-    &__h1 {
-        border: solid steelblue;
-    }
-    &__i {
-        border: solid steelblue;
-    }
+  border: solid indigo;
+}
+
+.restaurant-title__h1 {
+  border: solid steelblue;
+}
+
+.restaurant-title__i {
+  border: solid steelblue;
 }
 
 .menu-wrapper {
-    border: solid tomato;
+  border: solid tomato;
 }
 
 .menu-element {
-    border: solid black;
-    &__name {
-        border: solid chocolate;
-    }
+  border: solid black;
+}
+
+.menu-element__name {
+  border: solid chocolate;
 }
 
 .dishes-wrapper {
-    border: solid darkcyan;
+  border: solid darkcyan;
 }
 
 .dish-card {
-    border: solid orangered;
-    &__txt {
-        border: solid darkcyan;
-    }
-    &__name {
-        border: solid black;
-    }
-    &__details {
-        border: solid tomato;
-    }
-    &__price {
-        border: solid black;
-    }
-    &__check {
-        border: solid tomato;
-    }
-}*/
+  border: solid orangered;
+}
+
+.dish-card__txt {
+  border: solid darkcyan;
+}
+
+.dish-card__name {
+  border: solid black;
+}
+
+.dish-card__details {
+  border: solid tomato;
+}
+
+.dish-card__price {
+  border: solid black;
+}
+
+.dish-card__check {
+  border: solid tomato;
+}
+
 /*Components import*/
 /*common buttons*/
 .discription__btn {
@@ -357,6 +388,12 @@ ul {
   max-width: 280px;
 }
 
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .discription__wrap {
+    max-width: 450px;
+  }
+}
+
 .discription__h1 {
   /*width: 75%;
         padding: 0px;*/
@@ -414,8 +451,10 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -444,6 +483,13 @@ ul {
   width: 280px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .nav__btn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .nav__nmb {
@@ -501,6 +547,21 @@ ul {
   padding: 0px;
 }
 
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .cards-wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .card {
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 5px #d4cece;
@@ -522,6 +583,12 @@ ul {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .card {
+    width: 260px;
+  }
+}
+
 .card__tag {
   position: absolute;
   border-radius: 3px;
@@ -532,6 +599,12 @@ ul {
   padding: 5px 8px 5px 8px;
   margin-left: 205px;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .card__tag {
+    margin-left: 180px;
+  }
 }
 
 .card__img {

@@ -72,3 +72,20 @@ $text-colors:
     secondary: #FFF,
     tertiary: scale-color( map-get($identity-colors, tertiary), $lightness: -50%)
 );
+
+/*media queries variables*/
+/*First breakpoint*/
+$screen-sm-min: 597px;
+$screen-sm-max: 768px;
+ 
+/*Second breakpoint*/
+$screen-md-min: 768px;
+//$scree-md-max:;
+ 
+/*Third breakpoint*/
+$screen-lg-min: 992px;
+//$screen-lg-max:;
+
+/*Forth breakpoint*/
+$screen-xl-min: 1200px;
+//$screen-xl-max:;
