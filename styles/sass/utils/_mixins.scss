@@ -25,7 +25,13 @@
 }
 
 @mixin mobile-tab {
-    @media screen and (min-width: #{$screen-sm-min: 597px;}) and (max-width: #{$screen-sm-max}) {
+    @media screen and (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
+
+@mixin tab-desktop {
+    @media screen and (min-width: #{screen-md-min}) and (max-width: #{screen-md-max}) {
         @content;
     }
 }
