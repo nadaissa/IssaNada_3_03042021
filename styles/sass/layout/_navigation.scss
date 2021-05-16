@@ -80,6 +80,12 @@
    padding-top: 18px;
    padding-bottom: 45px;
    align-self: stretch;
+   @include mobile-tab {
+       padding-bottom: 0px;
+   }
+   @include tab-desktop {
+       padding-bottom: 0px;
+   }
    &__wrap {
     @include flex-column-center;
     padding-right: 10px;

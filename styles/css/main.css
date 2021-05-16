@@ -467,6 +467,18 @@ ul {
       align-self: stretch;
 }
 
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .nav {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .nav {
+    padding-bottom: 0px;
+  }
+}
+
 .nav__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
