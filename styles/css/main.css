@@ -70,21 +70,22 @@ ul {
 /*common parts*/
 /*.main-wrapper {
     border: solid brown;
-}*/
-.header {
-  border: solid brown;
-  /*&__logo {
-        border: solid black;
-    }*/
 }
 
-.header__back {
-  border: solid chartreuse;
+.header {
+    border: solid brown;
+    &__logo {
+        border: solid black;
+    }
+    &__back {
+        border: solid chartreuse;
+    }
 }
 
 .footer {
-  border: solid greenyellow;
-  /*&__wrap {
+    border: solid greenyellow;
+    
+    &__wrap {
         border: solid red;
     }
     &__h2 {
@@ -95,18 +96,17 @@ ul {
     }
     &__li {
         border: solid blue;
-    }*/
-}
-
+    }
+}*/
 /*main parts*/
-.intro {
-  border: solid pink;
-  /*&__loc {
+/*.intro{
+    border: solid pink;
+    &__loc {
         border: solid chartreuse;
-    }*/
+    }
 }
 
-/*.discription {
+.discription {
     border: solid brown;
     &__h1 {
         border: solid black;
@@ -127,15 +127,16 @@ ul {
     &__list {
         border: solid lime;
     }
-}*/
-.food-section {
-  border: solid mediumvioletred;
-  /*&__h2 {
-        border: solid olive;
-    }*/
 }
 
-/*.cards-wrap {
+.food-section {
+    border: solid mediumvioletred;
+    &__h2 {
+        border: solid olive;
+    }
+}
+
+.cards-wrap {
     border: solid orangered;
 }
 
@@ -164,14 +165,15 @@ ul {
     }
 }*/
 /*menu page parts*/
-.image-section {
-  border: solid greenyellow;
+/*.image-section {
+    border: solid greenyellow;
 }
 
-/*.restaurant-wrapper {
+.restaurant-wrapper {
     border: solid hotpink;
-}*/
-/*.restaurant-title {
+}
+
+.restaurant-title {
     border: solid indigo;
     &__h1 {
         border: solid steelblue;
@@ -187,15 +189,16 @@ ul {
 
 .menu-element {
     border: solid black;
-    /*&__name {
+    &__name {
         border: solid chocolate;
     }
 }
 
 .dishes-wrapper {
     border: solid darkcyan;
-}*/
-/*.dish-card {
+}
+
+.dish-card {
     border: solid orangered;
     &__txt {
         border: solid darkcyan;
@@ -793,20 +796,14 @@ ul {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  padding-right: 10px;
   padding-left: 10px;
 }
 
 .footer__h2 {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   margin-top: 0px;
   color: #FFF;
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
@@ -815,12 +812,8 @@ ul {
 }
 
 .footer__ul {
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
   margin: 0px;
   padding: 0px;
-  width: 280px;
 }
 
 .footer__li {
