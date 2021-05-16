@@ -37,12 +37,21 @@
     padding-top: 15px;
     background-color: map-get($layout-colors, lighter);
     align-self: stretch;
+    @include mobile-tab {
+        padding-bottom: 10px;
+    }
+    @include tab-desktop {
+        padding-bottom: 10px;
+    }
     &__wrap {
         //border: solid black;
         @include flex-column-center;
         text-align: center;
         max-width: 280px;
         @include mobile-tab {
+            max-width: 450px;
+        }
+        @include tab-desktop {
             max-width: 450px;
         }
     }
@@ -56,6 +65,12 @@
         padding: 0px;*/
         margin-top:1px;
         margin-bottom: 30px;
+        @include mobile-tab {
+            margin-bottom: 10px;
+        }
+        @include tab-desktop {
+            margin-bottom: 10px;
+        }
     }
 }
 
