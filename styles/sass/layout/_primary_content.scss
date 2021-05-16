@@ -17,7 +17,13 @@
         align-items: center;
         justify-content: space-evenly
     }
+    @include tab-desktop {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly
+    }
 }
+
 
 .card {
     @include border-radius-shadow;
@@ -33,6 +39,11 @@
         //margin-right: 5px;
         //margin-left: 5px;
     }
+    @include tab-desktop {
+        width: 340px;
+        //margin-right: 5px;
+        //margin-left: 5px;
+    }
     
     &__tag{
         position: absolute;
@@ -45,6 +56,9 @@
         margin-top: 10px;
         @include mobile-tab {
             margin-left: 180px;
+        }
+        @include tab-desktop {
+            margin-left: 260px;
         }
     
     }
