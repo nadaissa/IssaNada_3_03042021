@@ -7,6 +7,9 @@
     align-items: flex-start;
     &__logo {
         width: 140px;
+        @include mobile-tab {
+            width: 170px;
+        }
     }
     &__back {
         position: absolute;

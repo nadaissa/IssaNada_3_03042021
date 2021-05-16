@@ -294,6 +294,12 @@ ul {
   width: 140px;
 }
 
+@media screen and (min-width: 597px) and (max-width: 768px) {
+  .header__logo {
+    width: 170px;
+  }
+}
+
 .header__back {
   position: absolute;
   width: 90%;
