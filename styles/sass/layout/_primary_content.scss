@@ -143,6 +143,7 @@
     padding: 10px 5px 0px 5px;
     display: flex;
     flex-flow: column nowrap;
+    //align-self: center;
 
     &__name {
     @include txt-sz-wght (small-normal);
@@ -160,9 +161,9 @@
 
 .dishes-wrapper {
     @include flex-column-center;
-    //align-self: stretch;
+    align-self: center;
     padding: 0px;
-    //width: 280px;
+    width: 290px;
 }
 
 .dish-card {
