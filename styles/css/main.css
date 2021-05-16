@@ -814,6 +814,7 @@ ul {
 .footer__ul {
   margin: 0px;
   padding: 0px;
+  width: 280px;
 }
 
 .footer__li {
