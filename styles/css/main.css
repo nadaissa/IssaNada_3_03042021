@@ -638,6 +638,12 @@ ul {
     }*/
 }
 
+@media screen and (min-width: 860px) {
+  .card {
+    width: 340px;
+  }
+}
+
 .card__tag {
   position: absolute;
   border-radius: 3px;
@@ -654,6 +660,12 @@ ul {
         @include tab-desktop {
             margin-left: 260px;
         }*/
+}
+
+@media screen and (min-width: 860px) {
+  .card__tag {
+    margin-left: 260px;
+  }
 }
 
 .card__img {

@@ -40,6 +40,9 @@
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
+    @include large-screen {
+        width: 340px;
+    }
     /*@include mobile-tab {
         width: 260px;
         //margin-right: 5px;
@@ -60,6 +63,9 @@
         padding: 5px 8px 5px 8px;
         margin-left: 205px;
         margin-top: 10px;
+        @include large-screen {
+            margin-left: 260px;
+        }
         /*@include mobile-tab {
             margin-left: 185px;
         }

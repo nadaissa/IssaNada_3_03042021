@@ -30,4 +30,10 @@
     }
 }
 
+@mixin large-screen {
+    @media screen and (min-width: #{$screen-md-lg-min}) {
+        @content;
+    }
+}
+
 
