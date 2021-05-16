@@ -112,7 +112,11 @@
        @include mobile-tab {
            margin-left: 10px;
            margin-right: 10px;
-       }       
+       }
+       @include tab-desktop {
+        margin-left: 10px;
+        margin-right: 10px;
+    }        
    }
    &__nmb {
        background-color: map-get($identity-colors, primary);
