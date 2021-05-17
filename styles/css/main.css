@@ -281,6 +281,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1039px) {
+  .header__logo {
+    width: 200px;
+  }
+}
+
 .header__back {
   position: absolute;
   width: 90%;
@@ -595,6 +601,12 @@ ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 1039px) {
+  .cards-wrap {
+    max-width: 900px;
   }
 }
 

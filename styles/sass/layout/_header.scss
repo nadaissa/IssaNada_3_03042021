@@ -10,6 +10,9 @@
         @include medium-screen {
             width: 170px;
         }
+        @include xlarge-screen {
+            width: 200px;
+        }
         /*@include mobile-tab {
             width: 170px;
         }

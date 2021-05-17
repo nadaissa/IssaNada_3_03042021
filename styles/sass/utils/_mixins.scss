@@ -36,4 +36,10 @@
     }
 }
 
+@mixin xlarge-screen {
+    @media screen and (min-width: #{$screen-lg-xlg-min}) {
+        @content;
+    }
+}
+
 

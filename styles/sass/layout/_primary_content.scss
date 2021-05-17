@@ -18,6 +18,11 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    @include xlarge-screen {
+        //padding-left: 10px;
+        //padding-right: 10px;
+        max-width: 900px;
+    }
     /*@include mobile-tab {
         flex-flow: row wrap;
         align-items: center;
@@ -43,6 +48,7 @@
     @include large-screen {
         width: 340px;
     }
+
     /*@include mobile-tab {
         width: 260px;
         //margin-right: 5px;
