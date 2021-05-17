@@ -275,7 +275,7 @@ ul {
         }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .header__logo {
     width: 170px;
   }
@@ -366,7 +366,7 @@ ul {
     }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .discription {
     padding-bottom: 10px;
   }
@@ -393,7 +393,7 @@ ul {
         }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .discription__wrap {
     max-width: 450px;
   }
@@ -418,7 +418,7 @@ ul {
         }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .discription__p {
     margin-bottom: 10px;
   }
@@ -437,7 +437,7 @@ ul {
    }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .nav {
     padding-bottom: 0px;
   }
@@ -510,7 +510,7 @@ ul {
     }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .nav__btn {
     margin-left: 10px;
     margin-right: 10px;
@@ -583,7 +583,7 @@ ul {
     }*/
 }
 
-@media screen and (min-width: 597px) {
+@media screen and (min-width: 588px) {
   .cards-wrap {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -629,7 +629,7 @@ ul {
     }*/
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 859px) {
   .card {
     width: 340px;
   }
@@ -653,7 +653,7 @@ ul {
         }*/
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 859px) {
   .card__tag {
     margin-left: 260px;
   }
