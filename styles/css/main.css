@@ -891,7 +891,20 @@ ul {
 
 @media screen and (min-width: 588px) {
   .dishes-wrapper {
-    width: 360px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 859px) {
+  .dishes-wrapper {
+    width: 700px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -914,6 +927,19 @@ ul {
           align-items: center;
   padding: 8px 5px 8px 5px;
   margin-bottom: 13px;
+  width: 280px;
+}
+
+@media screen and (min-width: 588px) {
+  .dish-card {
+    width: 390px;
+  }
+}
+
+@media screen and (min-width: 859px) {
+  .dish-card {
+    width: 300px;
+  }
 }
 
 .dish-card__txt {

@@ -219,7 +219,12 @@
     padding: 0px;
     width: 290px;
     @include medium-screen {
-        width: 360px;
+        width: 400px;
+    }
+    @include large-screen {
+        width: 700px;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
 }
 
@@ -232,6 +237,13 @@
     align-items: center;
     padding: 8px 5px 8px 5px;
     margin-bottom: 13px;
+    width: 280px;
+    @include medium-screen {
+        width: 390px;
+    }
+    @include large-screen {
+        width: 300px;
+    }
     &__txt {
         display: flex;
         flex-flow: column nowrap;
