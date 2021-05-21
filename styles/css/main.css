@@ -231,7 +231,18 @@ ul {
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: #FFF;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 5px #d4cece;
+          box-shadow: 5px 5px 5px #d4cece;
   padding: 12px 16px 12px 16px;
+  /*transition for all properties of hover, duration, timming es-in for a slow statr */
+  -webkit-transition: all 700ms ease-in;
+  transition: all 700ms ease-in;
+}
+
+.discription__btn:hover {
+  opacity: 0.85;
+  -webkit-box-shadow: 5px 5px 5px #888383;
+          box-shadow: 5px 5px 5px #888383;
 }
 
 .restaurant-btn {
@@ -241,7 +252,20 @@ ul {
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   color: #FFF;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 5px #d4cece;
+          box-shadow: 5px 5px 5px #d4cece;
   padding: 12px 16px 12px 16px;
+  /*transition for all properties of hover, duration, timming es-in for a slow statr */
+  -webkit-transition: all 700ms ease-in;
+  transition: all 700ms ease-in;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.restaurant-btn:hover {
+  opacity: 0.85;
+  -webkit-box-shadow: 5px 5px 5px #888383;
+          box-shadow: 5px 5px 5px #888383;
 }
 
 /*Layout import*/
