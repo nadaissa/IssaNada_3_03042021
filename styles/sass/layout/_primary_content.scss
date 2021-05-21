@@ -186,10 +186,15 @@
 
 .menu-wrapper {
     //width: 95%;
+    //border: solid black;
     align-self: stretch;
     display: flex;
     flex-flow: column nowrap;
     padding-bottom: 35px;
+    @include xlarge-screen {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
 }
 
 .menu-element {
@@ -225,6 +230,9 @@
         width: 700px;
         flex-flow: row wrap;
         justify-content: space-between;
+    }
+    @include xlarge-screen {
+        width: 290px;
     }
 }
 
