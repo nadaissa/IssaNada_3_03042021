@@ -867,7 +867,7 @@ ul {
 .menu-element__name:after {
   content: '';
   display: block;
-  width: 13%;
+  width: 36px;
   padding-top: 4px;
   border-bottom: solid 3px #99E2D0;
 }
