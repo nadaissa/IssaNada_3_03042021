@@ -85,12 +85,13 @@
        width: 280px;
        max-height: 147px; 
        object-fit: cover;
-       @include large-screen {
+           @include large-screen {
         width: 340px;
     }
     }
     &__label {
-        width: 90%;
+        //width: 90%;
+        width: 250px;
         max-height: 50px;
         //padding-left: 10px;
         //padding-right: 10px;
@@ -100,6 +101,9 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        @include large-screen {
+            width: 305px;
+        }
     }
     &__txt {
         //margin-left: 5px;

@@ -686,7 +686,7 @@ ul {
 }
 
 .card__label {
-  width: 90%;
+  width: 250px;
   max-height: 50px;
   padding: 5px 10px 5px 10px;
   margin-top: 6px;
@@ -699,6 +699,12 @@ ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+@media screen and (min-width: 859px) {
+  .card__label {
+    width: 305px;
+  }
 }
 
 .card__txt {
