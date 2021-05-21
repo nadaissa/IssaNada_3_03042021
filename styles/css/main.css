@@ -62,7 +62,7 @@ button, button span {
   border-style: none;
 }
 
-a {
+a, a h3, a p {
   text-decoration: none;
 }
 
