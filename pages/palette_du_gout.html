@@ -3,16 +3,185 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../images/logo/favicon-32x32.png"/>
+    <link rel="stylesheet" href="../styles/css/main.css"/>
+    <script src="https://kit.fontawesome.com/1e8b216979.js" crossorigin="anonymous"></script>
     <title>La palette du goût</title>
 </head>
 
 <body>
-<h1>La palette du goût</h1>
+    <div class="main-wrapper">
+        <!--header with back link + logo-->
+        <header class="header">
+            <!--you made another link here because they needed to consider the arrow as a return button-->
+            <div class="header__back"><a href="../index.html" class="header__link"><span class="fas fa-arrow-left header__i"></span></a></div>
+            <img class="header__logo" src="../images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/>
+        </header>
 
+        <!--main image section-->
+        <div class="image-section">
+            <img class="image-section__img" src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût"/>
+        </div>
 
-
+        <!--Menu section: 5 divs: h1+icon, 3x[h2+ 3cards(h3+2p+hidden icon)], button-->
+        <section class="restaurant-section">
+            <div class="restaurant-section__wrap">
+            <!--restaurant title-->
+                <div class="restaurant-title">
+                    <h1 class="restaurant-title__h1">La palette du goût</h1>
+                    <span class="far fa-heart restaurant-title__i"></span>
+                </div>
+                <!--main menus wrapper-->
+                <div class="menu-wrapper">
+                    <!--appetizers section-->
+                    <div class="menu-element">
+                        <h2 class="menu-element__name">Entrées</h2>
+                        <!--entrees cards wrapper-->
+                        <div class="dishes-wrapper">
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Fricassée d'escargot</h3>
+                                    <p class="dish-card__details">Au piment d'Espelette</p>
+                                </div>
+                                <p class="dish-card__price">25€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>                        
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">                            
+                                    <h3 class="dish-card__name">Foie gras de canard mi-cuit</h3>
+                                    <p class="dish-card__details">Et ses copeaux de truffe noire</p>
+                                </div>
+                                <p class="dish-card__price">35€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Oeuf au plat</h3>
+                                    <p class="dish-card__details">Assaisonné à la truffe sur lit de caviar</p>
+                                </div>
+                                <p class="dish-card__price">20€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--maincourses section-->
+                    <div class="menu-element">
+                        <h2 class="menu-element__name">Plats</h2>
+                        <!--maincourses cards wrapper-->
+                        <div class="dishes-wrapper">
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Filet de boeuf aux herbes</h3>
+                                    <p class="dish-card__details">Accompagné de sa ribambelle de légumes</p>
+                                </div>
+                                <p class="dish-card__price">40€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Parmentier de queue de boeuf</h3>
+                                    <p class="dish-card__details">À la truffe noire sur sa purée de panais</p>
+                                </div>
+                                <p class="dish-card__price">35€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Filet de turbot</h3>
+                                    <p class="dish-card__details">Aux agrumes</p>
+                                </div>
+                                <p class="dish-card__price">44€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--dessert section-->
+                    <div class="menu-element">
+                        <h2 class="menu-element__name">Desserts</h2>
+                        <!--dessert cards wrapper-->
+                        <div class="dishes-wrapper">
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Paris-Brest</h3>
+                                    <p class="dish-card__details">Revisité</p>
+                                </div>
+                                <p class="dish-card__price">18€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Macaron au chocolat d'exception</h3>
+                                    <p class="dish-card__details">Et glace à la vanille de Madagascar</p>
+                                </div>
+                                <p class="dish-card__price">22€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>                        
+                            </div>
+                            <div class="dish-card">
+                                <div class="dish-card__txt">
+                                    <h3 class="dish-card__name">Mousse au chocolat</h3>
+                                    <p class="dish-card__details">Au piment d'Espelette et à la truffe noire</p>
+                                </div>
+                                <p class="dish-card__price">23€</p>
+                                <div class="dish-card__check">
+                                    <span class="fas fa-check-circle dish-card__i"></span>
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--order button--> 
+                <button class="restaurant-btn">Commander</button>   
+            </div>
+        </section>
+        <!--footer section with h2 and site map list (contact link to email address)-->
+        <footer class="footer">
+            <div class="footer__wrap">
+                <h2 class="footer__h2">ohmyfood</h2>
+                <ul class="footer__ul">
+                    <li class="footer__li">
+                        <a class="footer__lk" href="#">
+                            <span class="fas fa-utensils footer__i footer__i-s"></span>
+                            <span class="footer__bld-lk">Proposer un restaurant</span>
+                        </a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__lk" href="#">
+                            <span class="fas fa-hands-helping footer__i footer__i-xs"></span>
+                            <span class="footer__bld-lk">Devenir partenaire</span>
+                        </a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__lk" href="#">
+                            <span class="footer__nrml-lk">Mentions légales</span>
+                        </a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__lk" href="mailto:rosariojesus909@gmail.com">
+                            <span class=" footer__nrml-lk">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
