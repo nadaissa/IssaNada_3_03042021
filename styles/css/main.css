@@ -673,10 +673,16 @@ ul {
 
 .card__img {
   border-radius: 10px 10px 0px 0px;
-  width: 100%;
+  width: 280px;
   max-height: 147px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (min-width: 859px) {
+  .card__img {
+    width: 340px;
+  }
 }
 
 .card__label {

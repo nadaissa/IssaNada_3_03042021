@@ -82,9 +82,12 @@
     }
     &__img {
        border-radius: 10px 10px 0px 0px;
-       width: 100%;
+       width: 280px;
        max-height: 147px; 
        object-fit: cover;
+       @include large-screen {
+        width: 340px;
+    }
     }
     &__label {
         width: 90%;
