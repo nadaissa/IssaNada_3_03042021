@@ -825,9 +825,6 @@ ul {
         //margin-right: 5px;
         //margin-left: 5px;
     }*/
-  /*& a .far {
-        background-color: red;
-    }*/
 }
 
 @media screen and (min-width: 859px) {
@@ -926,6 +923,14 @@ ul {
           flex-grow: 1;
   text-align: right;
   padding-top: 5px;
+}
+
+.card__i::before {
+  border: solid black;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  content: '\f004';
 }
 
 /*menu page*/
