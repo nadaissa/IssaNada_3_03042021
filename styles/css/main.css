@@ -29,38 +29,46 @@
 }
 
 @-webkit-keyframes bouncer-out {
-  0% {
+  from {
     z-index: 1;
+    opacity: 1;
   }
-  100% {
+  to {
     z-index: -1;
+    opacity: 0;
   }
 }
 
 @keyframes bouncer-out {
-  0% {
+  from {
     z-index: 1;
+    opacity: 1;
   }
-  100% {
+  to {
     z-index: -1;
+    opacity: 0;
   }
 }
 
 @-webkit-keyframes main-in {
   from {
     z-index: -1;
+    opacity: 0;
   }
   to {
     z-index: 1;
+    opacity: 1;
   }
 }
 
 @keyframes main-in {
   from {
     z-index: -1;
+    opacity: 0;
   }
   to {
     z-index: 1;
+    opacity: 1;
   }
 }
 
