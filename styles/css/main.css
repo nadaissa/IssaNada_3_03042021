@@ -639,7 +639,6 @@ ul {
 /*main page*/
 /*loading area*/
 .bouncer {
-  border: solid greenyellow;
   position: fixed;
   overflow: hidden;
   width: 100%;
