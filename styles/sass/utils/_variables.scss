@@ -71,19 +71,10 @@ $text-colors:
     primary: #000, 
     secondary: #FFF,
     tertiary: scale-color( map-get($identity-colors, tertiary), $lightness: -50%),
-    //visited: #9356DC
 );
 
 /*media queries variables*/
-/*First breakpoint*/
+
 $screen-sm-md-min: 588px;
-/*Second breakpoint*/
 $screen-md-lg-min: 859px;
 $screen-lg-xlg-min: 1039px;
-
-//$screen-md-lg-min: 768px;
-//$screen-md-min: 769px;
-//$screen-md-max: 937px;
- 
-/*Third breakpoint*/
-//$screen-lg-min: 937px;

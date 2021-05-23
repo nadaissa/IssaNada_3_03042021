@@ -1,12 +1,13 @@
 /*main page*/
+
 /*loading area*/
 .main-in-animation {
-animation: main-in 0s 6000ms ease-in;
+    animation: main-in 0s 6000ms ease-in;
+    position: relative;
 }
 
 .bouncer {
     position: fixed;
-    //z-index: 1;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -16,10 +17,9 @@ animation: main-in 0s 6000ms ease-in;
     align-items: center;
     animation: bouncer-out 6000ms 2500ms ease-out both;
     & span {
-    //border: solid hotpink;
-    font-family: $title-font;
+        font-family: $title-font;
     @include txt-sz-wght (big-bold);
-    animation: bouncer 2500ms cubic-bezier(.28,.64,.74,.98) infinite alternate;
+        animation: bouncer 2500ms cubic-bezier(.28,.64,.74,.98) infinite alternate;
     }
     & span:nth-child(1) {
         color: map-get($identity-colors, primary);
@@ -41,46 +41,31 @@ animation: main-in 0s 6000ms ease-in;
 /*primary content*/
 .food-section {
     @include flex-column-center;
-    background-color: map-get($layout-colors, lighter);
-    padding: 25px 10px 35px 10px;
+        background-color: map-get($layout-colors, lighter);
+        padding: 25px 10px 35px 10px;
     &__h2{
         align-self: flex-start;
         margin-left: 8px;
     }
 }
 
-.cards-wrap {
-    //width: auto;
+.cards-wrap {    
     @include flex-column-center;
-    padding: 0px;
+        padding: 0px;
     @include medium-screen {
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-evenly;
     }
     @include xlarge-screen {
-        //padding-left: 10px;
-        //padding-right: 10px;
         max-width: 900px;
     }
-    /*@include mobile-tab {
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    @include tab-desktop {
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }*/
 }
 
 
 .card {
     @include border-radius-shadow;
     @include flex-column-center;
-    //display: flex;
-    //flex-flow: column nowrap;
     width: 280px;
     margin-bottom: 10px;
     height: 210px;
@@ -88,17 +73,6 @@ animation: main-in 0s 6000ms ease-in;
     @include large-screen {
         width: 340px;
     }
-
-    /*@include mobile-tab {
-        width: 260px;
-        //margin-right: 5px;
-        //margin-left: 5px;
-    }
-    @include tab-desktop {
-        width: 340px;
-        //margin-right: 5px;
-        //margin-left: 5px;
-    }*/
     
     &__tag{
         position: absolute;
@@ -111,15 +85,9 @@ animation: main-in 0s 6000ms ease-in;
         margin-top: 10px;
         @include large-screen {
             margin-left: 260px;
-        }
-        /*@include mobile-tab {
-            margin-left: 185px;
-        }
-        @include tab-desktop {
-            margin-left: 260px;
-        }*/
-    
+        }    
     }
+
     &__img {
        border-radius: 10px 10px 0px 0px;
        width: 280px;
@@ -128,16 +96,12 @@ animation: main-in 0s 6000ms ease-in;
            @include large-screen {
         width: 340px;
     }
-    }
+}
     &__label {
-        //width: 90%;
         width: 250px;
         max-height: 50px;
-        //padding-left: 10px;
-        //padding-right: 10px;
         padding: 5px 10px 5px 10px;
         margin-top: 6px;
-        //margin-left: 6px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -145,8 +109,8 @@ animation: main-in 0s 6000ms ease-in;
             width: 305px;
         }
     }
+
     &__txt {
-        //margin-left: 5px;
         padding: 0px;
         max-height: 45px;
         flex-grow: 2;
@@ -158,16 +122,14 @@ animation: main-in 0s 6000ms ease-in;
         margin-bottom: 0px;
         margin-top: 0px;
     }
+
     &__location{
         @include txt-sz-wght (small-normal);
         padding-top: 0px;
         margin-top: 0px;
     }
+
     &__i {
-        //align-self: flex-end;
-        //margin-top: -50px;
-        //margin-right: 10px;
-        //position: relative;
         font-size: large;
         flex-grow: 1;
         text-align: right;
@@ -177,7 +139,6 @@ animation: main-in 0s 6000ms ease-in;
             overflow: hidden;
             transition: 0.5s ease-in-out;
             content: '\f004';
-            //color: map-get($identity-colors, primary);
             &:hover {
 
             }
@@ -185,6 +146,7 @@ animation: main-in 0s 6000ms ease-in;
     }
 
 }
+
 /*menu page*/
 .image-section{
     position: absolute;
@@ -200,15 +162,11 @@ animation: main-in 0s 6000ms ease-in;
 }
 
 .restaurant-section {
-    @include flex-column-center;
-    //position: relative;
-    //padding-left: 15px;
-    //padding-right: 15px;
+    @include flex-column-center;    
     margin-top: 180px;
     background-color: map-get($layout-colors, lighter);
     border-radius: 30px 30px 0px 0px;
-    &__wrap {
-        //border: solid blue;
+    &__wrap {        
         @include flex-column-center;
         margin-top: 30px;
         width: 95%;
@@ -219,8 +177,7 @@ animation: main-in 0s 6000ms ease-in;
 }
 
 
-.restaurant-title {
-    //width: 95%;
+.restaurant-title {    
     align-self: stretch;
     display: flex;
     justify-content: space-between;
@@ -236,9 +193,7 @@ animation: main-in 0s 6000ms ease-in;
     }
 }
 
-.menu-wrapper {
-    //width: 95%;
-    //border: solid black;
+.menu-wrapper {    
     align-self: stretch;
     display: flex;
     flex-flow: column nowrap;
@@ -249,12 +204,10 @@ animation: main-in 0s 6000ms ease-in;
     }
 }
 
-.menu-element {
-    //padding-top: 10px;
+.menu-element {    
     padding: 10px 5px 0px 5px;
     display: flex;
-    flex-flow: column nowrap;
-    //align-self: center;
+    flex-flow: column nowrap;    
 
     &__name {
     @include txt-sz-wght (small-normal);

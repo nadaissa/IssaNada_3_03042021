@@ -13,19 +13,13 @@
         @include xlarge-screen {
             width: 200px;
         }
-        /*@include mobile-tab {
-            width: 170px;
-        }
-        @include tab-desktop {
-            width: 170px;
-        }*/
     }
+    
     &__back {
         position: absolute;
         width: 90%;
     }
-    /*&__link {
-    }*/
+   
     &__i {
         font-size: medium;
     }

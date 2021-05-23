@@ -6,21 +6,16 @@
     &__wrap {
         display: flex;
         flex-direction: column;
-        //@include flex-column-center;
         align-self: stretch;
         padding-left: 10px;
-        //padding-left: 10px;
     }
     &__h2 {
-        //align-self: flex-start;
         margin-top: 0px;
         color: map-get($text-colors, secondary);
         font-family: $title-font;
         @include txt-sz-wght (medium-bold);
-        //font-size: 1rem;
     }
     &__ul{
-        //align-self: flex-start;
         margin: 0px;
         padding: 0px;
         width: 280px;

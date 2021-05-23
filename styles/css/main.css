@@ -1,12 +1,8 @@
-/*Utils import*/
 /*Font variables*/
 /*text variables*/
 /*Maps text size and weight variables*/
 /*Maps Color variables*/
 /*media queries variables*/
-/*First breakpoint*/
-/*Second breakpoint*/
-/*Third breakpoint*/
 @-webkit-keyframes bouncer {
   from {
     -webkit-transform: translateY(0);
@@ -111,13 +107,11 @@
         transform: scaleX(1);
     }
 }*/
-/*Base import*/
-/*general basic behavior - general common styles*/
+/*Body and wrapper margins*/
 .main-wrapper {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  position: relative;
 }
 
 body {
@@ -125,7 +119,6 @@ body {
   padding: 0px;
 }
 
-/*colors fonts and cie*/
 /*fonts links*/
 @font-face {
   font-family: 'Shrikhand';
@@ -139,7 +132,7 @@ body {
   font-style: normal;
 }
 
-/*general font properties*/
+/*general typo properties*/
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #000;
@@ -176,159 +169,6 @@ ul {
   list-style: none;
 }
 
-/*temporary borders*/
-/*common parts*/
-/*
-.main-wrapper {
-    border: solid brown;
-}
-
-.header {
-    border: solid brown;
-    &__logo {
-        border: solid black;
-    }
-    &__back {
-        border: solid chartreuse;
-    }
-}
-
-.footer {
-    border: solid greenyellow;
-    
-    &__wrap {
-        border: solid red;
-    }
-    &__h2 {
-        border: solid hotpink;
-    }
-    &__ul {
-        border: solid gold;
-    }
-    &__li {
-        border: solid blue;
-    }
-}*/
-/*main parts*/
-/*
-.intro{
-    border: solid pink;
-    &__loc {
-        border: solid chartreuse;
-    }
-}
-
-.discription {
-    border: solid brown;
-    &__h1 {
-        border: solid black;
-    }
-    &__p {
-        border: solid magenta;
-    }
-}
-
-.nav {
-    border: solid lightseagreen;
-    &__h2 {
-        border: solid lightslategray;
-    }
-    &__wrap {
-       border: solid lightseagreen; 
-    }
-    &__list {
-        border: solid lime;
-    }
-}
-
-.food-section {
-    border: solid mediumvioletred;
-    &__h2 {
-        border: solid olive;
-    }
-}
-
-.cards-wrap {
-    border: solid orangered;
-}
-
-.card {
-    border: solid paleturquoise;
-    &__tag {
-        border: solid black;
-    }
-    &__label {
-        border: solid goldenrod;
-    }
-    &__txt {
-        border: solid orangered;
-    }
-    &__name {
-        border: solid black;
-
-    }
-    &__location {
-        border: solid orangered;
-
-    }
-    &__i {
-        border: solid black;
-
-    }
-}*/
-/*menu page parts*/
-/*.image-section {
-    border: solid greenyellow;
-}
-
-.restaurant-wrapper {
-    border: solid hotpink;
-}
-
-.restaurant-title {
-    border: solid indigo;
-    &__h1 {
-        border: solid steelblue;
-    }
-    &__i {
-        border: solid steelblue;
-    }
-}
-
-.menu-wrapper {
-    border: solid tomato;
-}
-
-.menu-element {
-    border: solid black;
-    &__name {
-        border: solid chocolate;
-    }
-}
-
-.dishes-wrapper {
-    border: solid darkcyan;
-}
-
-.dish-card {
-    border: solid orangered;
-    &__txt {
-        border: solid darkcyan;
-    }
-    &__name {
-        border: solid black;
-    }
-    &__details {
-        border: solid tomato;
-    }
-    &__price {
-        border: solid black;
-    }
-    &__check {
-        border: solid tomato;
-    }
-}*/
-/*Components import*/
 /*common buttons*/
 .discription__btn {
   font-size: 0.9rem;
@@ -340,7 +180,6 @@ ul {
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   padding: 12px 16px 12px 16px;
-  /*transition for all properties of hover, duration, timming es-in for a slow statr */
   -webkit-transition: all 700ms ease-in;
   transition: all 700ms ease-in;
 }
@@ -361,7 +200,6 @@ ul {
   -webkit-box-shadow: 5px 5px 5px #d4cece;
           box-shadow: 5px 5px 5px #d4cece;
   padding: 12px 16px 12px 16px;
-  /*transition for all properties of hover, duration, timming es-in for a slow statr */
   -webkit-transition: all 700ms ease-in;
   transition: all 700ms ease-in;
   padding-left: 35px;
@@ -374,7 +212,6 @@ ul {
           box-shadow: 5px 5px 5px #888383;
 }
 
-/*Layout import*/
 .header {
   padding-top: 18px;
   padding-bottom: 10px;
@@ -391,18 +228,10 @@ ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  /*&__link {
-    }*/
 }
 
 .header__logo {
   width: 140px;
-  /*@include mobile-tab {
-            width: 170px;
-        }
-        @include tab-desktop {
-            width: 170px;
-        }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -437,10 +266,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*display: flex;
-    flex-flow: column nowrap;
-    margin: 0px;
-    width: 100%;*/
 }
 
 .intro__btn {
@@ -488,18 +313,11 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*text-align: center;*/
   padding-bottom: 50px;
   padding-top: 15px;
   background-color: #F8F8F8;
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  /*@include mobile-tab {
-        padding-bottom: 10px;
-    }
-    @include tab-desktop {
-        padding-bottom: 10px;
-    }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -521,12 +339,6 @@ ul {
           align-items: center;
   text-align: center;
   max-width: 280px;
-  /*@include mobile-tab {
-            max-width: 450px;
-        }
-        @include tab-desktop {
-            max-width: 450px;
-        }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -536,22 +348,12 @@ ul {
 }
 
 .discription__h1 {
-  /*width: 75%;
-        padding: 0px;*/
   margin-bottom: 1px;
 }
 
 .discription__p {
-  /*width: 90%;
-        padding: 0px;*/
   margin-top: 1px;
   margin-bottom: 30px;
-  /*@include mobile-tab {
-            margin-bottom: 10px;
-        }
-        @include tab-desktop {
-            margin-bottom: 10px;
-        }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -561,16 +363,9 @@ ul {
 }
 
 .nav {
-  /*text-align: center;*/
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-  /*@include mobile-tab {
-       padding-bottom: 0px;
-   }
-   @include tab-desktop {
-       padding-bottom: 0px;
-   }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -636,14 +431,6 @@ ul {
   width: 280px;
   margin-top: 5px;
   margin-bottom: 15px;
-  /*@include mobile-tab {
-           margin-left: 10px;
-           margin-right: 10px;
-       }
-       @include tab-desktop {
-        margin-left: 10px;
-        margin-right: 10px;
-    }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -678,6 +465,7 @@ ul {
 .main-in-animation {
   -webkit-animation: main-in 0s 6000ms ease-in;
           animation: main-in 0s 6000ms ease-in;
+  position: relative;
 }
 
 .bouncer {
@@ -763,16 +551,6 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 0px;
-  /*@include mobile-tab {
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    @include tab-desktop {
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }*/
 }
 
 @media screen and (min-width: 588px) {
@@ -815,16 +593,6 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
-  /*@include mobile-tab {
-        width: 260px;
-        //margin-right: 5px;
-        //margin-left: 5px;
-    }
-    @include tab-desktop {
-        width: 340px;
-        //margin-right: 5px;
-        //margin-left: 5px;
-    }*/
 }
 
 @media screen and (min-width: 859px) {
@@ -843,12 +611,6 @@ ul {
   padding: 5px 8px 5px 8px;
   margin-left: 205px;
   margin-top: 10px;
-  /*@include mobile-tab {
-            margin-left: 185px;
-        }
-        @include tab-desktop {
-            margin-left: 260px;
-        }*/
 }
 
 @media screen and (min-width: 859px) {
