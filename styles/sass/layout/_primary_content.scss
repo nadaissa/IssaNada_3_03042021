@@ -15,7 +15,7 @@
     border: solid hotpink;
     font-family: $title-font;
     @include txt-sz-wght (big-bold);
-    animation: bouncer 1.3s cubic-bezier(.28,.64,.64,.78) infinite alternate;
+    animation: bouncer 1s cubic-bezier(.28,.64,.74,.98) infinite alternate;
     }
 }  
 

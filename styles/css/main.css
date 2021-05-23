@@ -616,8 +616,8 @@ ul {
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
-  -webkit-animation: bouncer 1.3s cubic-bezier(0.28, 0.64, 0.64, 0.78) infinite alternate;
-          animation: bouncer 1.3s cubic-bezier(0.28, 0.64, 0.64, 0.78) infinite alternate;
+  -webkit-animation: bouncer 1s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+          animation: bouncer 1s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
 }
 
 /*primary content*/
