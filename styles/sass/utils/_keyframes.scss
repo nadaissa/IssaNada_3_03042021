@@ -1,4 +1,26 @@
 @keyframes bouncer {
-    from { transform: translateY(0);}
-    to {transform: translateY(-100px);}
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes bouncer-out {
+    0% {
+        z-index: 1;
+    }
+    100% {
+        z-index: -1;
+    }
+    
+}
+@keyframes main-in {
+    from {
+        z-index: -1;
+    }
+    to { 
+        z-index: 1;
+    }
 }

@@ -28,6 +28,42 @@
   }
 }
 
+@-webkit-keyframes bouncer-out {
+  0% {
+    z-index: 1;
+  }
+  100% {
+    z-index: -1;
+  }
+}
+
+@keyframes bouncer-out {
+  0% {
+    z-index: 1;
+  }
+  100% {
+    z-index: -1;
+  }
+}
+
+@-webkit-keyframes main-in {
+  from {
+    z-index: -1;
+  }
+  to {
+    z-index: 1;
+  }
+}
+
+@keyframes main-in {
+  from {
+    z-index: -1;
+  }
+  to {
+    z-index: 1;
+  }
+}
+
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -35,6 +71,8 @@
   padding: 0px;
   overflow: hidden;
   position: relative;
+  -webkit-animation: main-in 0s 6000ms ease-in;
+          animation: main-in 0s 6000ms ease-in;
 }
 
 body {
@@ -595,7 +633,6 @@ ul {
 .bouncer {
   border: solid greenyellow;
   position: fixed;
-  z-index: 1;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -609,14 +646,16 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: bouncer-out 6000ms 2500ms ease-out both;
+          animation: bouncer-out 6000ms 2500ms ease-out both;
 }
 
 .bouncer span {
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
-  -webkit-animation: bouncer 1.5s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
-          animation: bouncer 1.5s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+  -webkit-animation: bouncer 2500ms cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+          animation: bouncer 2500ms cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
 }
 
 .bouncer span:nth-child(1) {
@@ -625,20 +664,20 @@ ul {
 
 .bouncer span:nth-child(2) {
   color: #FF79DA;
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 
 .bouncer span:nth-child(3) {
   color: #99E2D0;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 
 .bouncer span:nth-child(4) {
   color: #9356DC;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
 }
 
 /*primary content*/
