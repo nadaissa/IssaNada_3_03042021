@@ -100,6 +100,17 @@
   }
 }
 
+/*@keyframes heart-fill {
+    0% {
+        transform: scaleX(0);
+    }
+    50% {
+        transform: scaleX(0.5);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}*/
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -107,8 +118,6 @@
   padding: 0px;
   overflow: hidden;
   position: relative;
-  -webkit-animation: main-in 0s 6000ms ease-in;
-          animation: main-in 0s 6000ms ease-in;
 }
 
 body {
@@ -815,6 +824,9 @@ ul {
         width: 340px;
         //margin-right: 5px;
         //margin-left: 5px;
+    }*/
+  /*& a .far {
+        background-color: red;
     }*/
 }
 

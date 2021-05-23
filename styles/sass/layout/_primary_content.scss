@@ -15,7 +15,6 @@ animation: main-in 0s 6000ms ease-in;
     justify-content: center;
     align-items: center;
     animation: bouncer-out 6000ms 2500ms ease-out both;
-
     & span {
     //border: solid hotpink;
     font-family: $title-font;
@@ -173,9 +172,10 @@ animation: main-in 0s 6000ms ease-in;
         text-align: right;
         padding-top: 5px;
     }
-
+    /*& a .far {
+        background-color: red;
+    }*/
 }
-
 /*menu page*/
 .image-section{
     position: absolute;
