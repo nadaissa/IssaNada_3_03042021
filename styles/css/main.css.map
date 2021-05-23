@@ -6,7 +6,7 @@
         "../sass/utils/_variables.scss",
         "../sass/utils/_mixins.scss",
         "../sass/utils/_functions.scss",
-        "../sass/utils/_animation.scss",
+        "../sass/utils/_keyframes.scss",
         "../sass/base/_general.scss",
         "../sass/base/_typography.scss",
         "../sass/components/_buttons.scss",
