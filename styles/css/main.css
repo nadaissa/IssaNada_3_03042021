@@ -612,12 +612,33 @@ ul {
 }
 
 .bouncer span {
-  border: solid hotpink;
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
-  -webkit-animation: bouncer 1s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
-          animation: bouncer 1s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+  -webkit-animation: bouncer 1.2s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+          animation: bouncer 1.2s cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+}
+
+.bouncer span:nth-child(1) {
+  color: #9356DC;
+}
+
+.bouncer span:nth-child(2) {
+  color: #FF79DA;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.bouncer span:nth-child(3) {
+  color: #99E2D0;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.bouncer span:nth-child(4) {
+  color: #9356DC;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 /*primary content*/

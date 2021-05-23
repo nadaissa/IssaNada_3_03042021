@@ -12,10 +12,25 @@
     justify-content: center;
     align-items: center;
     & span {
-    border: solid hotpink;
+    //border: solid hotpink;
     font-family: $title-font;
     @include txt-sz-wght (big-bold);
-    animation: bouncer 1s cubic-bezier(.28,.64,.74,.98) infinite alternate;
+    animation: bouncer 1.2s cubic-bezier(.28,.64,.74,.98) infinite alternate;
+    }
+    & span:nth-child(1) {
+        color: map-get($identity-colors, primary);
+    }
+    & span:nth-child(2) {
+        color: map-get($identity-colors, secondary);
+        animation-delay: 0.2s;
+    }
+    & span:nth-child(3) {
+        color: map-get($identity-colors, tertiary);
+        animation-delay: 0.3s;
+    }
+    & span:nth-child(4) {
+        color: map-get($identity-colors, primary);
+        animation-delay: 0.4s;
     }
 }  
 
