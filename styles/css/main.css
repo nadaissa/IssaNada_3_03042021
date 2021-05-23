@@ -1095,8 +1095,8 @@ ul {
   padding: 8px 5px 8px 5px;
   margin-bottom: 13px;
   width: 280px;
-  -webkit-animation: dishes-entry 5000ms ease-in-out;
-          animation: dishes-entry 5000ms ease-in-out;
+  -webkit-animation: dishes-entry 4000ms ease-in-out;
+          animation: dishes-entry 4000ms ease-in-out;
 }
 
 @media screen and (min-width: 588px) {
