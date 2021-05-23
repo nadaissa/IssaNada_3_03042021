@@ -1,21 +1,25 @@
 /*main page*/
-.loading-element {
+/*loading area*/
+.bouncer {
     border: solid greenyellow;
     position: fixed;
     z-index: 1;
     overflow: hidden;
     width: 100%;
     height: 100%;
+    background-color: map-get($layout-colors, neutral);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: map-get($layout-colors, neutral);
     & span {
-        border: solid hotpink;
-        font-family: $title-font;
-        @include txt-sz-wght (big-bold);
+    border: solid hotpink;
+    font-family: $title-font;
+    @include txt-sz-wght (big-bold);
+    animation: bouncer 1.3s cubic-bezier(.28,.64,.64,.78) infinite alternate;
     }
-}
+}  
+
+/*primary content*/
 .food-section {
     @include flex-column-center;
     background-color: map-get($layout-colors, lighter);

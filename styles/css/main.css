@@ -7,6 +7,27 @@
 /*First breakpoint*/
 /*Second breakpoint*/
 /*Third breakpoint*/
+@-webkit-keyframes bouncer {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes bouncer {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -570,13 +591,15 @@ ul {
 }
 
 /*main page*/
-.loading-element {
+/*loading area*/
+.bouncer {
   border: solid greenyellow;
   position: fixed;
   z-index: 1;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  background-color: #FFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,16 +609,18 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FFF;
 }
 
-.loading-element span {
+.bouncer span {
   border: solid hotpink;
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
+  -webkit-animation: bouncer 1.3s cubic-bezier(0.28, 0.64, 0.64, 0.78) infinite alternate;
+          animation: bouncer 1.3s cubic-bezier(0.28, 0.64, 0.64, 0.78) infinite alternate;
 }
 
+/*primary content*/
 .food-section {
   display: -webkit-box;
   display: -ms-flexbox;
