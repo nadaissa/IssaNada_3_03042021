@@ -666,6 +666,11 @@ ul {
 
 /*main page*/
 /*loading area*/
+.main-in-animation {
+  -webkit-animation: main-in 0s 6000ms ease-in;
+          animation: main-in 0s 6000ms ease-in;
+}
+
 .bouncer {
   position: fixed;
   overflow: hidden;

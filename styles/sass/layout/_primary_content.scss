@@ -1,5 +1,9 @@
 /*main page*/
 /*loading area*/
+.main-in-animation {
+animation: main-in 0s 6000ms ease-in;
+}
+
 .bouncer {
     position: fixed;
     //z-index: 1;
