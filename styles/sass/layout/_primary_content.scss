@@ -1,4 +1,23 @@
 /*main page*/
+.loading-element {
+    border: solid greenyellow;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__1 {
+
+    }
+    &__2 {
+
+    }
+    &__3 {
+
+    }
+}
 .food-section {
     @include flex-column-center;
     background-color: map-get($layout-colors, lighter);
