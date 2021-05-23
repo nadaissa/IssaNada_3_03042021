@@ -28,3 +28,18 @@
         opacity: 1;
     }
 }
+
+@keyframes dishes-entry {
+    0% {
+        opacity: 0;
+        transform: translateY(+7px);
+    }
+
+    50% {
+        opacity: 0.50;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

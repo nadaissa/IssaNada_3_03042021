@@ -72,6 +72,34 @@
   }
 }
 
+@-webkit-keyframes dishes-entry {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  50% {
+    opacity: 0.50;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dishes-entry {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  50% {
+    opacity: 0.50;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*Base import*/
 /*general basic behavior - general common styles*/
 .main-wrapper {
@@ -1067,6 +1095,8 @@ ul {
   padding: 8px 5px 8px 5px;
   margin-bottom: 13px;
   width: 280px;
+  -webkit-animation: dishes-entry 5000ms ease-in-out;
+          animation: dishes-entry 5000ms ease-in-out;
 }
 
 @media screen and (min-width: 588px) {
@@ -1079,6 +1109,26 @@ ul {
   .dish-card {
     width: 300px;
   }
+}
+
+.dish-card:nth-child(1) {
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+}
+
+.dish-card:nth-child(2) {
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+}
+
+.dish-card:nth-child(3) {
+  -webkit-animation-duration: 3000ms;
+          animation-duration: 3000ms;
+}
+
+.dish-card:nth-child(4) {
+  -webkit-animation-duration: 4000ms;
+          animation-duration: 4000ms;
 }
 
 .dish-card__txt {
