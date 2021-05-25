@@ -605,6 +605,34 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
+  /*__i{    
+        flex-grow: 1;
+        text-align: right;
+        padding-top: 5px;*/
+  /*&::after{
+            
+            border: solid pink;
+            content: '\f004';
+            fill: pink;
+            height: 0;
+            width: 100%;
+            transition: 1000ms ease-in-out;
+            transform-origin: bottom;
+        &::after:hover {
+                height: 100%;
+            }*/
+  /*&::before{
+            border: solid black;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            content: '\f004';
+            height: 0;
+            position:absolute;
+            &:hover {
+                height: 100%;
+            }
+        }
+    }*/
   /*& .fa-heart {
         font-size: large;
         &::before{
@@ -701,39 +729,13 @@ ul {
   margin-top: 0px;
 }
 
-.card__i-wrap {
-  border: solid black;
+.card .fa-stack-1x {
+  font-size: large;
+  text-align: right;
 }
 
-.card__i {
-  border: solid green;
-  font-size: large;
-  /*flex-grow: 1;
-        text-align: right;
-        padding-top: 5px;*/
-  /*&::after{
-            
-            border: solid pink;
-            content: '\f004';
-            fill: pink;
-            height: 0;
-            width: 100%;
-            transition: 1000ms ease-in-out;
-            transform-origin: bottom;
-        &::after:hover {
-                height: 100%;
-            }*/
-  /*&::before{
-            border: solid black;
-            overflow: hidden;
-            transition: 0.5s ease-in-out;
-            content: '\f004';
-            height: 0;
-            position:absolute;
-            &:hover {
-                height: 100%;
-            }
-        }*/
+.card .fas {
+  opacity: 0;
 }
 
 /*menu page*/

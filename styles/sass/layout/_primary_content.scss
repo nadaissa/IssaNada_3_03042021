@@ -138,13 +138,21 @@
     }
 
     &__i-wrap{
-        border: solid black;
+        //border: solid black;
     }
 
-    &__i {
-        border: solid green;
+    & .fa-stack-1x{
+        //border: solid green;
         font-size: large;
-        /*flex-grow: 1;
+        text-align: right;
+    }
+    & .fas {
+        opacity: 0;
+    }
+        
+        
+    /*__i{    
+        flex-grow: 1;
         text-align: right;
         padding-top: 5px;*/
         //position: relative;
@@ -171,8 +179,9 @@
             &:hover {
                 height: 100%;
             }
-        }*/
-    }
+        }
+    }*/
+    
     /*& .fa-heart {
         font-size: large;
         &::before{
