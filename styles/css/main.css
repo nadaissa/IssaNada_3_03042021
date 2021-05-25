@@ -5,22 +5,22 @@
 /*media queries variables*/
 @-webkit-keyframes bouncer {
   from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
   }
   to {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 @keyframes bouncer {
   from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
   }
   to {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -469,7 +469,7 @@ ul {
 }
 
 .bouncer {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -480,19 +480,31 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-animation: bouncer-out 6000ms 2500ms ease-out both;
           animation: bouncer-out 6000ms 2500ms ease-out both;
 }
 
 .bouncer span {
   font-family: "Shrikhand", Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
+  font-size: 1.65rem;
+  padding-top: 15px;
   -webkit-animation: bouncer 2500ms cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
           animation: bouncer 2500ms cubic-bezier(0.28, 0.64, 0.74, 0.98) infinite alternate;
+}
+
+@media screen and (min-width: 588px) {
+  .bouncer span {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1039px) {
+  .bouncer span {
+    font-size: 2rem;
+  }
 }
 
 .bouncer span:nth-child(1) {
