@@ -469,7 +469,7 @@ ul {
 }
 
 .bouncer {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -497,13 +497,13 @@ ul {
 
 @media screen and (min-width: 588px) {
   .bouncer span {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 }
 
 @media screen and (min-width: 1039px) {
   .bouncer span {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
 
