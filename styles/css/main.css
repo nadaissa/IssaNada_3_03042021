@@ -605,6 +605,17 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
+  /*& .fa-heart {
+        font-size: large;
+        &::before{
+            content: '\f004';
+        }
+        &:hover::before {
+            background-color: linear-gradient(180deg, map-get($identity-colors, secondary), map-get($identity-colors, primary));
+            background-size: auto;
+
+        }
+    }*/
 }
 
 @media screen and (min-width: 859px) {
