@@ -148,6 +148,11 @@
     }
     & .fas {
         opacity: 0;
+        color: map-get($identity-colors, secondary);
+        &:hover{
+            transform-origin: center center;
+            animation: heart-fill 1500ms 90ms cubic-bezier(0,.55,.6,.99) both;
+        }
     }
         
         
