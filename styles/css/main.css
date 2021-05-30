@@ -555,6 +555,14 @@ ul {
   }
 }
 
+.nav__btn:hover {
+  background-color: #e4d5f6;
+}
+
+.nav__btn:hover .fas {
+  color: #a978e3;
+}
+
 .nav__nmb {
   background-color: #9356DC;
   border-radius: 10px;
