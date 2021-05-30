@@ -3,6 +3,8 @@
 /*Maps text size and weight variables*/
 /*Maps Color variables*/
 /*media queries variables*/
+/*Keayframes area*/
+/*Loading spinner in*/
 @-webkit-keyframes bouncer {
   from {
     -webkit-transform: translateY(-70px);
@@ -24,6 +26,7 @@
   }
 }
 
+/*Loading spinner out*/
 @-webkit-keyframes bouncer-out {
   from {
     z-index: 1;
@@ -34,7 +37,6 @@
     opacity: 0;
   }
 }
-
 @keyframes bouncer-out {
   from {
     z-index: 1;
@@ -46,6 +48,7 @@
   }
 }
 
+/*Main page in after loading spinner*/
 @-webkit-keyframes main-in {
   from {
     z-index: -1;
@@ -56,7 +59,6 @@
     opacity: 1;
   }
 }
-
 @keyframes main-in {
   from {
     z-index: -1;
@@ -68,34 +70,7 @@
   }
 }
 
-@-webkit-keyframes dishes-entry {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(7px);
-            transform: translateY(7px);
-  }
-  50% {
-    opacity: 0.50;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes dishes-entry {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(7px);
-            transform: translateY(7px);
-  }
-  50% {
-    opacity: 0.50;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
+/*Heart icon fill effect*/
 @-webkit-keyframes heart-fill {
   0% {
     -webkit-transform: scale(0);
@@ -133,7 +108,6 @@
     opacity: 1;
   }
 }
-
 @keyframes heart-fill {
   0% {
     -webkit-transform: scale(0);
@@ -172,6 +146,35 @@
   }
 }
 
+/*Menu page gradual dishes entry*/
+@-webkit-keyframes dishes-entry {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  50% {
+    opacity: 0.50;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes dishes-entry {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+  }
+  50% {
+    opacity: 0.50;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Menu page check-box entry*/
 @-webkit-keyframes check-in {
   0% {
     margin-right: -50px;
@@ -180,7 +183,6 @@
     margin-right: 0px;
   }
 }
-
 @keyframes check-in {
   0% {
     margin-right: -50px;
@@ -190,6 +192,7 @@
   }
 }
 
+/*Menu page check-box icon rotate*/
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0);
@@ -204,7 +207,6 @@
             transform: rotate(360deg);
   }
 }
-
 @keyframes rotate {
   0% {
     -webkit-transform: rotate(0);
@@ -282,7 +284,7 @@ ul {
   list-style: none;
 }
 
-/*common buttons*/
+/*common buttons with transition effect*/
 .discription__btn {
   font-size: 0.9rem;
   font-weight: normal;
@@ -575,12 +577,14 @@ ul {
 
 /*main page*/
 /*loading area*/
+/*Main page transition in animation after bouncer (loading spinner)*/
 .main-in-animation {
   -webkit-animation: main-in 0s 6000ms ease-in;
           animation: main-in 0s 6000ms ease-in;
   position: relative;
 }
 
+/*Bouncer (loading spinner) animation*/
 .bouncer {
   position: fixed;
   overflow: hidden;
@@ -718,6 +722,7 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
+  /*Heart icon fill effect animation*/
 }
 
 @media screen and (min-width: 859px) {
@@ -1015,8 +1020,10 @@ ul {
   overflow: hidden;
   margin-bottom: 13px;
   width: 280px;
+  /*Gradual entry animation for menu elements*/
   -webkit-animation: dishes-entry 4000ms ease-in-out;
           animation: dishes-entry 4000ms ease-in-out;
+  /*Check box entry animation*/
 }
 
 @media screen and (min-width: 588px) {

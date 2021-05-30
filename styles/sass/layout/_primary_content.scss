@@ -1,11 +1,13 @@
 /*main page*/
 
 /*loading area*/
+/*Main page transition in animation after bouncer (loading spinner)*/
 .main-in-animation {
     animation: main-in 0s 6000ms ease-in;
     position: relative;
 }
 
+/*Bouncer (loading spinner) animation*/
 .bouncer {
     position: fixed;
     overflow: hidden;
@@ -148,6 +150,7 @@
        //text-align: right;
     }
 
+    /*Heart icon fill effect animation*/
     & .fas {
         opacity: 0;
         color: map-get($identity-colors, secondary);
@@ -276,6 +279,7 @@
         min-width: 300px;
     }
     
+    /*Gradual entry animation for menu elements*/
     animation: dishes-entry 4000ms ease-in-out;
     &:nth-child(1) {
         animation-duration: 1000ms;
@@ -290,6 +294,7 @@
         animation-duration: 4000ms;
     }
 
+    /*Check box entry animation*/
     &:hover &__check {
         animation: check-in 800ms ease-in-out forwards;
     }

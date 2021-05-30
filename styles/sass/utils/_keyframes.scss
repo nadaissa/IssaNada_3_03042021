@@ -1,3 +1,6 @@
+/*Keayframes area*/
+
+/*Loading spinner in*/
 @keyframes bouncer {
     from {
         transform: translateY(-70px);
@@ -7,6 +10,7 @@
     }
 }
 
+/*Loading spinner out*/
 @keyframes bouncer-out {
     from {
         z-index: 1;
@@ -18,6 +22,8 @@
     }
     
 }
+
+/*Main page in after loading spinner*/
 @keyframes main-in {
     from {
         z-index: -1;
@@ -29,21 +35,7 @@
     }
 }
 
-@keyframes dishes-entry {
-    0% {
-        opacity: 0;
-        transform: translateY(+7px);
-    }
-
-    50% {
-        opacity: 0.50;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
+/*Heart icon fill effect*/
 @keyframes heart-fill {
     0% {
         transform: scale(0);
@@ -79,6 +71,23 @@
     }
 }
 
+/*Menu page gradual dishes entry*/
+@keyframes dishes-entry {
+    0% {
+        opacity: 0;
+        transform: translateY(+7px);
+    }
+
+    50% {
+        opacity: 0.50;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Menu page check-box entry*/
 @keyframes check-in {
     0% {
         margin-right: -50px;
@@ -89,6 +98,7 @@
     }
 }
 
+/*Menu page check-box icon rotate*/
 @keyframes rotate {
     0% {
         transform: rotate(0);
