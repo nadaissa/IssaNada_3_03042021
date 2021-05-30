@@ -251,6 +251,7 @@
     width: 290px;
     @include medium-screen {
         width: 400px;
+        justify-self: center;
     }
     @include large-screen {
         width: 700px;
@@ -273,7 +274,8 @@
     margin-bottom: 13px;
     width: 280px;
     @include medium-screen {
-        width: 390px;
+        width: 340px;
+        align-self: center;
     }
     @include large-screen {
         min-width: 300px;
@@ -314,6 +316,9 @@
         white-space: nowrap;
         @include medium-screen {
             flex: 2.5;
+        }
+        @include large-screen {
+            flex: 2.2;
         }    
     }
     &__name {
@@ -339,7 +344,10 @@
         @include txt-sz-wght (smaller-bold);
         flex: 0.8;
         @include medium-screen {
-           flex: 0.8;
+           flex: 0.7;
+        }
+        @include large-screen {
+            flex: 0.8;
         }
     }
     &__check {

@@ -986,6 +986,8 @@ ul {
 @media screen and (min-width: 588px) {
   .dishes-wrapper {
     width: 400px;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 
@@ -1036,7 +1038,10 @@ ul {
 
 @media screen and (min-width: 588px) {
   .dish-card {
-    width: 390px;
+    width: 340px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 
@@ -1103,6 +1108,14 @@ ul {
   }
 }
 
+@media screen and (min-width: 859px) {
+  .dish-card__txt {
+    -webkit-box-flex: 2.2;
+        -ms-flex: 2.2;
+            flex: 2.2;
+  }
+}
+
 .dish-card__name {
   font-size: 0.9rem;
   font-weight: bold;
@@ -1134,6 +1147,14 @@ ul {
 }
 
 @media screen and (min-width: 588px) {
+  .dish-card__price {
+    -webkit-box-flex: 0.7;
+        -ms-flex: 0.7;
+            flex: 0.7;
+  }
+}
+
+@media screen and (min-width: 859px) {
   .dish-card__price {
     -webkit-box-flex: 0.8;
         -ms-flex: 0.8;
