@@ -718,9 +718,6 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
-  /*&__i-wrap{
-        //border: solid black;
-    }*/
 }
 
 @media screen and (min-width: 859px) {
