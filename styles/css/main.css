@@ -172,6 +172,54 @@
   }
 }
 
+@-webkit-keyframes check-in {
+  0% {
+    margin-right: -50px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
+
+@keyframes check-in {
+  0% {
+    margin-right: -50px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 /*Body and wrapper margins*/
 .main-wrapper {
   margin: 0px;
@@ -993,6 +1041,16 @@ ul {
 .dish-card:nth-child(4) {
   -webkit-animation-duration: 4000ms;
           animation-duration: 4000ms;
+}
+
+.dish-card:hover .dish-card__check {
+  -webkit-animation: check-in 800ms ease-in-out forwards;
+          animation: check-in 800ms ease-in-out forwards;
+}
+
+.dish-card:hover .dish-card__i {
+  -webkit-animation: rotate 800ms;
+          animation: rotate 800ms;
 }
 
 .dish-card__txt {

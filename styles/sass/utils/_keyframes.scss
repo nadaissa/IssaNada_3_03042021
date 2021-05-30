@@ -78,3 +78,27 @@
         opacity: 0.9;
     }
 }
+
+@keyframes check-in {
+    0% {
+        margin-right: -50px;
+    }
+
+    100% {
+        margin-right: 0px;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}

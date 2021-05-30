@@ -284,6 +284,14 @@
         animation-duration: 4000ms;
     }
 
+    &:hover &__check {
+        animation: check-in 800ms ease-in-out forwards;
+        //margin: 0px;
+    }
+    &:hover &__i {
+        animation: rotate 800ms;
+    }
+
     &__txt {
         //border: solid red;
         flex: 2.2;
@@ -336,7 +344,7 @@
         border-radius: 0px 15px 15px 0px;
         min-width: 50px;
         margin-right: -100px;
-        //display: none;
+        //display: none;   
 
     }
 
