@@ -259,6 +259,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
     //padding: 8px 5px 8px 5px;
     margin-bottom: 13px;
     width: 280px;
@@ -283,9 +284,9 @@
         animation-duration: 4000ms;
     }
 
-
     &__txt {
-        //@include: solid black;
+        //border: solid red;
+        flex: 2.2;
         display: flex;
         flex-flow: column nowrap;
         padding-top: 8px;
@@ -293,7 +294,10 @@
         padding-bottom: 8px;
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;    
+        white-space: nowrap;
+        @include medium-screen {
+            flex: 2.5;
+        }    
     }
     &__name {
         @include txt-sz-wght (small-bold);
@@ -315,8 +319,12 @@
         //border: solid greenyellow;
         align-self: flex-end;
         margin-bottom: 10px;
-        padding-right: 15px;
+        margin-right: 0px;
         @include txt-sz-wght (smaller-bold);
+        flex: 0.8;
+        @include medium-screen {
+           flex: 0.8;
+        }
     }
     &__check {
         //border: solid greenyellow;
@@ -327,6 +335,7 @@
         background-color: map-get($identity-colors, tertiary);
         border-radius: 0px 15px 15px 0px;
         min-width: 50px;
+        margin-right: -100px;
         //display: none;
 
     }
