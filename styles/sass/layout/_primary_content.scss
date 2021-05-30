@@ -137,9 +137,9 @@
         margin-top: 0px;
     }
 
-    &__i-wrap{
+    /*&__i-wrap{
         //border: solid black;
-    }
+    }*/
 
     & .fa-stack-1x{
         //border: solid green;
@@ -155,50 +155,6 @@
         }
     }
         
-        
-    /*__i{    
-        flex-grow: 1;
-        text-align: right;
-        padding-top: 5px;*/
-        //position: relative;
-        
-        /*&::after{
-            
-            border: solid pink;
-            content: '\f004';
-            fill: pink;
-            height: 0;
-            width: 100%;
-            transition: 1000ms ease-in-out;
-            transform-origin: bottom;
-        &::after:hover {
-                height: 100%;
-            }*/
-        /*&::before{
-            border: solid black;
-            overflow: hidden;
-            transition: 0.5s ease-in-out;
-            content: '\f004';
-            height: 0;
-            position:absolute;
-            &:hover {
-                height: 100%;
-            }
-        }
-    }*/
-    
-    /*& .fa-heart {
-        font-size: large;
-        &::before{
-            content: '\f004';
-        }
-        &:hover::before {
-            background-color: linear-gradient(180deg, map-get($identity-colors, secondary), map-get($identity-colors, primary));
-            background-size: auto;
-
-        }
-    }*/
-
 }
 
 
@@ -303,7 +259,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 5px 8px 5px;
+    //padding: 8px 5px 8px 5px;
     margin-bottom: 13px;
     width: 280px;
     @include medium-screen {
@@ -329,27 +285,48 @@
 
 
     &__txt {
+        //border: solid black;
         display: flex;
         flex-flow: column nowrap;
-        padding: 0px;    
+        padding-top: 8px;
+        padding-left: 5px;
+        padding-bottom: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;    
     }
     &__name {
         @include txt-sz-wght (small-bold);
         margin: 2.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
     }
     
     &__details {
         @include txt-sz-wght (smaller-normal);
         margin: 2.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     &__price {
+        //border: solid greenyellow;
         align-self: flex-end;
-        margin-bottom: 0px;
-        margin-right: 5px;
+        margin-bottom: 10px;
+        padding-right: 15px;
         @include txt-sz-wght (smaller-bold);
     }
     &__check {
+        border: solid greenyellow;
         display: none;
+        width: 50px;
+        padding: 0px;
+    }
+
+    &__i {
+
     }
 }
 

@@ -670,44 +670,8 @@ ul {
   margin-bottom: 10px;
   height: 210px;
   margin-bottom: 20px;
-  /*__i{    
-        flex-grow: 1;
-        text-align: right;
-        padding-top: 5px;*/
-  /*&::after{
-            
-            border: solid pink;
-            content: '\f004';
-            fill: pink;
-            height: 0;
-            width: 100%;
-            transition: 1000ms ease-in-out;
-            transform-origin: bottom;
-        &::after:hover {
-                height: 100%;
-            }*/
-  /*&::before{
-            border: solid black;
-            overflow: hidden;
-            transition: 0.5s ease-in-out;
-            content: '\f004';
-            height: 0;
-            position:absolute;
-            &:hover {
-                height: 100%;
-            }
-        }
-    }*/
-  /*& .fa-heart {
-        font-size: large;
-        &::before{
-            content: '\f004';
-        }
-        &:hover::before {
-            background-color: linear-gradient(180deg, map-get($identity-colors, secondary), map-get($identity-colors, primary));
-            background-size: auto;
-
-        }
+  /*&__i-wrap{
+        //border: solid black;
     }*/
 }
 
@@ -992,7 +956,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8px 5px 8px 5px;
   margin-bottom: 13px;
   width: 280px;
   -webkit-animation: dishes-entry 4000ms ease-in-out;
@@ -1039,32 +1002,46 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  padding: 0px;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dish-card__name {
   font-size: 0.9rem;
   font-weight: bold;
   margin: 2.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dish-card__details {
   font-size: 0.8rem;
   font-weight: normal;
   margin: 2.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dish-card__price {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin-bottom: 0px;
-  margin-right: 5px;
+  margin-bottom: 10px;
+  padding-right: 15px;
   font-size: 0.8rem;
   font-weight: bold;
 }
 
 .dish-card__check {
+  border: solid greenyellow;
   display: none;
+  width: 50px;
+  padding: 0px;
 }
 
 .footer {
