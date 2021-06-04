@@ -142,6 +142,22 @@
         //border: springgreen solid;
         padding: 0;
         max-width: 20px;
+        &:hover .fas{
+            transform-origin: center center;
+            animation: heart-fill 1000ms 40ms cubic-bezier(0,.55,.6,.99) both;
+        }
+        &:active .fas{
+            transform-origin: center center;
+            animation: heart-fill 1000ms 40ms cubic-bezier(0,.55,.6,.99) both;
+        }
+
+        &:hover .far {
+            animation: heart-border 1000ms 40ms ease-in-out both;
+        }
+
+        &:active .far {
+            animation: heart-border 1000ms 40ms ease-in-out both;
+        }
     }
 
     & .fa-stack-1x{
@@ -154,14 +170,14 @@
     & .fas {
         opacity: 0;
         color: map-get($identity-colors, secondary);
-        &:hover{
+        /*&:hover{
             transform-origin: center center;
             animation: heart-fill 700ms 40ms cubic-bezier(0,.55,.6,.99) both;
         }
         &:active{
             transform-origin: center center;
             animation: heart-fill 700ms 40ms cubic-bezier(0,.55,.6,.99) both;
-        }
+        }*/
 
     }
         
