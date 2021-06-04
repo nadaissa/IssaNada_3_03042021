@@ -16,8 +16,15 @@
     }
     
     &__back {
+        //border: black solid;
         position: absolute;
-        width: 90%;
+        width: 92%;
+        @include medium-screen {
+            width: 93%;
+        }
+        @include xlarge-screen {
+            width: 95%;
+        }
     }
    
     &__i {

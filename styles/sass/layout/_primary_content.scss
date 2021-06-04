@@ -204,7 +204,7 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    padding-left: 10px;
+    padding-left: 7px;
     &__h1 {
         font-family: $title-font;
         margin: 0px;
@@ -245,10 +245,11 @@
 }
 
 .dishes-wrapper {
+    //border: solid black;
     @include flex-column-center;
     align-self: center;
     padding: 0px;
-    width: 290px;
+    width: 295px;
     @include medium-screen {
         width: 400px;
         justify-self: center;
@@ -259,7 +260,7 @@
         justify-content: space-between;
     }
     @include xlarge-screen {
-        width: 290px;
+        width: 295px;
     }
 }
 
@@ -272,13 +273,13 @@
     align-items: center;
     overflow: hidden;
     margin-bottom: 13px;
-    width: 280px;
+    width: 295px;
     @include medium-screen {
         width: 340px;
         align-self: center;
     }
     @include large-screen {
-        min-width: 300px;
+        min-width: 295px;
     }
     
     /*Gradual entry animation for menu elements*/

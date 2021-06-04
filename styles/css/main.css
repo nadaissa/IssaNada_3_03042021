@@ -363,7 +363,19 @@ ul {
 
 .header__back {
   position: absolute;
-  width: 90%;
+  width: 92%;
+}
+
+@media screen and (min-width: 588px) {
+  .header__back {
+    width: 93%;
+  }
+}
+
+@media screen and (min-width: 1039px) {
+  .header__back {
+    width: 95%;
+  }
 }
 
 .header__i {
@@ -904,7 +916,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding-right: 20px;
-  padding-left: 10px;
+  padding-left: 7px;
 }
 
 .restaurant-title__h1 {
@@ -980,7 +992,7 @@ ul {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 0px;
-  width: 290px;
+  width: 295px;
 }
 
 @media screen and (min-width: 588px) {
@@ -1006,7 +1018,7 @@ ul {
 
 @media screen and (min-width: 1039px) {
   .dishes-wrapper {
-    width: 290px;
+    width: 295px;
   }
 }
 
@@ -1029,7 +1041,7 @@ ul {
           align-items: center;
   overflow: hidden;
   margin-bottom: 13px;
-  width: 280px;
+  width: 295px;
   /*Gradual entry animation for menu elements*/
   -webkit-animation: dishes-entry 4000ms ease-in-out;
           animation: dishes-entry 4000ms ease-in-out;
@@ -1047,7 +1059,7 @@ ul {
 
 @media screen and (min-width: 859px) {
   .dish-card {
-    min-width: 300px;
+    min-width: 295px;
   }
 }
 
