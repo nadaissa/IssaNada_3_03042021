@@ -68,8 +68,9 @@
    &__wrap {
     @include flex-column-center;
     
-    padding: 18px 10px 45px 19px;
+    padding: 18px 10px 45px 16px;
     }
+    
    &__h2 {
        align-self: flex-start;
    }
