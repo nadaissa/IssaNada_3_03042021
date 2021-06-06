@@ -1,8 +1,8 @@
-/*Font variables*/
+
 $title-font: 'Shrikhand', Arial, Helvetica, sans-serif;
 $general-font: 'Roboto',  Arial, Helvetica, sans-serif;
 
-/*text variables*/
+
 $txt-smaller: 0.8rem;
 $txt-small: 0.9rem;
 $txt-medium: 1rem;
@@ -11,7 +11,7 @@ $txt-large: 1.3rem;
 $txt-bold: bold;
 $txt-normal: normal;
 
-/*Maps text size and weight variables*/
+
 $txt-sz-wght:
 (
     smaller-normal: (
@@ -50,7 +50,7 @@ $txt-sz-wght:
 );
 
 
-/*Maps Color variables*/
+
 $identity-colors: 
 (
     primary: #9356DC, 
@@ -73,7 +73,7 @@ $text-colors:
     tertiary: scale-color( map-get($identity-colors, tertiary), $lightness: -60%),
 );
 
-/*media queries variables*/
+
 
 $screen-sm-md-min: 588px;
 $screen-md-lg-min: 859px;

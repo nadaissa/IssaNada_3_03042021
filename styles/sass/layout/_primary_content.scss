@@ -1,4 +1,4 @@
-/*main page*/
+/*Primary content main page*/
 
 /*loading area*/
 /*Main page transition in animation after bouncer (loading spinner)*/
@@ -47,7 +47,7 @@
     }
 }  
 
-/*primary content*/
+/*Main content*/
 .food-section {
     @include flex-column-center;
         background-color: map-get($layout-colors, lighter);
@@ -139,9 +139,9 @@
     }
 
     &__i-wrap {
-        //border: springgreen solid;
         padding: 0;
         max-width: 20px;
+        /*Heart icon animation fill and fade*/
         &:hover .fas{
             transform-origin: center center;
             animation: heart-fill 1000ms 40ms cubic-bezier(0,.55,.6,.99) both;
@@ -161,30 +161,19 @@
     }
 
     & .fa-stack-1x{
-        //border: black solid;
         font-size: large;
-       //text-align: right;
     }
 
-    /*Heart icon fill effect animation*/
     & .fas {
         opacity: 0;
         color: map-get($identity-colors, secondary);
-        /*&:hover{
-            transform-origin: center center;
-            animation: heart-fill 700ms 40ms cubic-bezier(0,.55,.6,.99) both;
-        }
-        &:active{
-            transform-origin: center center;
-            animation: heart-fill 700ms 40ms cubic-bezier(0,.55,.6,.99) both;
-        }*/
 
     }
         
 }
 
 
-/*menu page*/
+/*Primary content menu page*/
 .image-section{
     position: absolute;
     z-index: -1;
@@ -261,7 +250,6 @@
 }
 
 .dishes-wrapper {
-    //border: solid black;
     @include flex-column-center;
     align-self: center;
     padding: 0px;

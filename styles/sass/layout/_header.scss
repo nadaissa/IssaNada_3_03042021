@@ -1,3 +1,4 @@
+/*Header area*/
 .header {
     padding-top: 18px;
     padding-bottom: 10px;
@@ -16,7 +17,6 @@
     }
     
     &__back {
-        //border: black solid;
         position: absolute;
         width: 92%;
         @include medium-screen {

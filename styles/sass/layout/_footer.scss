@@ -1,3 +1,4 @@
+/*Footer area*/
 .footer {
     @include flex-column-center;
     background-color: map-get($layout-colors, dark);
