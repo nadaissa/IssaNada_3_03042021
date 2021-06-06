@@ -40,4 +40,12 @@ Respect the graphic identity of the site :white_check_mark:
 
 ## Validators
 
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS Valide !" />
+    </a>
+</p>
 
+<img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Fnadaissa.github.io%2FIssaNada_3_03042021%2Findex.html">
