@@ -989,8 +989,43 @@ ul {
   margin: 0px;
 }
 
-.restaurant-title__i {
+.restaurant-title__i-wrap {
+  padding: 0;
+  max-width: 20px;
+  /*Heart icon animation fill and fade*/
+}
+
+.restaurant-title__i-wrap:hover .fas {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation: heart-fill 1000ms 40ms cubic-bezier(0, 0.55, 0.6, 0.99) both;
+          animation: heart-fill 1000ms 40ms cubic-bezier(0, 0.55, 0.6, 0.99) both;
+}
+
+.restaurant-title__i-wrap:active .fas {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation: heart-fill 1000ms 40ms cubic-bezier(0, 0.55, 0.6, 0.99) both;
+          animation: heart-fill 1000ms 40ms cubic-bezier(0, 0.55, 0.6, 0.99) both;
+}
+
+.restaurant-title__i-wrap:hover .far {
+  -webkit-animation: heart-border 1000ms 40ms ease-in-out both;
+          animation: heart-border 1000ms 40ms ease-in-out both;
+}
+
+.restaurant-title__i-wrap:active .far {
+  -webkit-animation: heart-border 1000ms 40ms ease-in-out both;
+          animation: heart-border 1000ms 40ms ease-in-out both;
+}
+
+.restaurant-title .fa-stack-1x {
   font-size: large;
+}
+
+.restaurant-title .fas {
+  opacity: 0;
+  color: #FF79DA;
 }
 
 .menu-wrapper {
