@@ -76,7 +76,7 @@
 .card {
     @include border-radius-shadow;
     @include flex-column-center;
-    width: 280px;
+    width: 290px;
     margin-bottom: 10px;
     height: 210px;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@
 
     &__img {
        border-radius: 10px 10px 0px 0px;
-       width: 280px;
+       width: 290px;
        max-height: 147px; 
        object-fit: cover;
            @include large-screen {
