@@ -49,9 +49,10 @@
 
 /*Main content*/
 .food-section {
+    //border: solid greenyellow;
     @include flex-column-center;
-        background-color: map-get($layout-colors, lighter);
-        padding: 25px 10px 35px 10px;
+    background-color: map-get($layout-colors, lighter);
+    padding: 25px 10px 35px 11px;
     &__h2{
         align-self: flex-start;
         margin-left: 8px;

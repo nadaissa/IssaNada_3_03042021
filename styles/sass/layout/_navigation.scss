@@ -65,9 +65,9 @@
    }
    
    &__wrap {
+       //border: solid black;
     @include flex-column-center;
-    
-    padding: 18px 10px 45px 16px;
+    padding: 18px 10px 45px 19px;
     }
     
    &__h2 {
