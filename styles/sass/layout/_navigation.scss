@@ -110,13 +110,20 @@
        color: map-get($text-colors, secondary);
        margin-left: -48px;
     }
+
+    &__btn-content {
+        width: 210px;
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__i {
         color: grey;
         font-size: large;        
     }
     &__btn-txt {
-        width: 180px; 
+        width: 178px; 
         text-align: left;     
     }
-
+   
 }

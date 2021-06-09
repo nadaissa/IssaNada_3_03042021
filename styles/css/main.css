@@ -630,13 +630,23 @@ ul {
   margin-left: -48px;
 }
 
+.nav__btn-content {
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav__i {
   color: grey;
   font-size: large;
 }
 
 .nav__btn-txt {
-  width: 180px;
+  width: 178px;
   text-align: left;
 }
 
