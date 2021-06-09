@@ -412,13 +412,13 @@ ul {
 
 @media screen and (min-width: 588px) {
   .header__back {
-    width: 93%;
+    width: 93.5%;
   }
 }
 
 @media screen and (min-width: 1039px) {
   .header__back {
-    width: 95%;
+    width: 94%;
   }
 }
 
@@ -1017,6 +1017,12 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+}
+
+@media screen and (min-width: 588px) {
+  .menu-element {
+    padding-left: 6px;
+  }
 }
 
 .menu-element__name {

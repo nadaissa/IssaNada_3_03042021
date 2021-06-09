@@ -234,7 +234,10 @@
 .menu-element {    
     padding: 10px 5px 0px 5px;
     display: flex;
-    flex-flow: column nowrap;    
+    flex-flow: column nowrap;
+    @include medium-screen {
+        padding-left: 6px;
+    }   
 
     &__name {
     @include txt-sz-wght (small-normal);
